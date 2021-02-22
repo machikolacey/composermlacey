@@ -23,7 +23,7 @@ There is a profile section to show her biology, and also the concept of her comp
 
 #### What is the purpose of the app <!-- omit in toc -->
 
-The objectives of the app is to inform the artist's passion to compose piano songs by proviting information and background of her composition,
+The purpose of the app is to inform the artist's passion to compose piano songs by proviting information and background of her composition,
 as well as providing event information. An user can purchase her albums and event tickets online. 
 
 #### Who is this website for <!-- omit in toc -->
@@ -60,4 +60,29 @@ They can achieve their goals because
 
 <div align="right">
     <b><a href="#table-of-contents">Back To Top</a></b>
+</div>
+
+#### Project Objectives <!-- omit in toc -->
+
+The main objectives of the site for the owner are:
+
+- To inform the passion of the artist's composition
+- To provide sample songs on ambed video 
+- To provide shopping facility for event tickets and albums
+- To provide a platform to review her products
+- To provide a schedule of the artist
+- To provide biography and profile of the artist
+- To provide information about Neo Classical piano and what is the artists goal
+
+The main goals of the site for the visitors are:
+
+- To find out about what is the motivation for the composition.
+- To watch sample videos to feel how the songs sond like.
+- To purchase event tickets and albums
+- To find out about in-coming activities of the artist
+- To discover the details of the artist 
+- To discover the genre of the artist is going to achieve
+
+<div align="right">
+    <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
