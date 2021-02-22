@@ -62,9 +62,9 @@ They can achieve their goals because
     <b><a href="#table-of-contents">Back To Top</a></b>
 </div>
 
-#### Project Objectives <!-- omit in toc -->
+#### Project Goals <!-- omit in toc -->
 
-The main objectives of the site for the owner are:
+The main Goals of the site for the owner are:
 
 - To inform the passion of the artist's composition
 - To provide sample songs on ambed video 
@@ -84,7 +84,7 @@ The main goals of the site for the visitors are:
 - To discover the genre of the artist is going to achieve
 
 <div align="right">
-    <b><a href="#table-of-contents">↥ Back To Top</a></b>
+    <b><a href="#table-of-contents">Back To Top</a></b>
 </div>
 
 
@@ -108,7 +108,7 @@ The main goals of the site for the visitors are:
 - Discover what CDs he offers on sale and be able to securely purchase them from home.
 
 <div align="right">
-    <b><a href="#table-of-contents">↥ Back To Top</a></b>
+    <b><a href="#table-of-contents">Back To Top</a></b>
 </div>
 
 ### User Stories
@@ -127,8 +127,32 @@ The main goals of the site for the visitors are:
 | As a user | I would like to find out venue, date, time and duration of the event              | so I can find out if I can attend it.                     |
 | As a user | I would like to be able to ask question through a contact form                  | so I can ask questions.                              |
 | As a user | I would like to purchase the artist's products and event tickets     | so I can enjoy her music.                       |
+| As a user | I would like to write a review on my purchased products    | so I can share my thoughts on my purchased products.                       |
 | As a user | I would like to be able to purchase the products securely          | so I feel safe through payment section. |
 | As a user | I would like to be able to register on this website                   | so I can purchase easily in the future.             |
 | As a user | I would like to be able to reset my password                         | so I can login again in case I forget my password                  |
 | As a user | I would like to be able to see my order history                      | so I can see what I purchased      |
 | As a user | I would like to be able to update the account details            | so I can update my address, phone number etc in case I change them  |
+
+
+
+#### For the site owner <!-- omit in toc -->
+
+| As a user | I would like to                                                                  | so                                                             |
+| --------- | -------------------------------------------------------------------------------- | -------------------------------------------------------------- |
+| As a user | I would like to be able to add a product easily | so I feel ease on adding product  |
+| As a user | I would like to be able to edit a product easily | so I can update product details at ease            |
+| As a user | I would like to be able to delete a product     | so it won't show up on the website.                  |
+| As a user | I would like to be able to add album songs      | so they will be displayed on the album product page  |
+| As a user | I would like to be able to add event venue, date, time and duration| so they will be displayed on the event product page    |
+| As a user | I would like to be able to modify event details | so I can update event details                  |
+| As a user | I would like to be able to approve or dissaprove user reviews | so I can manage customer reviews effectively |
+| As a user | I would like to be able to update artist information pages | so I can flexibly refresh the page information.                      |
+
+<div align="right">
+    <b><a href="#table-of-contents">Back To Top</a></b>
+</div>
+
+
+
+
