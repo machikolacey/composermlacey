@@ -86,3 +86,49 @@ The main goals of the site for the visitors are:
 <div align="right">
     <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
+
+
+#### Project Objectives <!-- omit in toc -->
+
+The main objectives of the site for the owner are:
+
+- Showcase his activities.
+- Let the visitor know about who he is, what he does and when.
+- Offer a platform to display his work and sell it.
+- Give a clear way to get in touch and be contacted.
+- Promote his concerts and activities by offering clear information of past and future engagements.
+- Spread the love for baroque music in general and harpsichord in particular.
+
+The main goals of the site for the visitors are:
+
+- Get to know and connect with the artist.
+- Know clearly where and when they can attend one of their concerts.
+- Discover how he presents himself by looking at the media album.
+- Have a preview of his art by watching his videos.
+- Discover what CDs he offers on sale and be able to securely purchase them from home.
+
+<div align="right">
+    <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
+### User Stories
+
+#### For the visitor <!-- omit in toc -->
+
+| As a user | I would like to                                                      | so                                                     |
+| --------- | -------------------------------------------------------------------- | ------------------------------------------------------ |
+| As a user | I would like to find out up-coming events and recent albums on top of the homepage | so I can find out up-coming events and recent albums at a glance  |                                |
+| As a user | I would like to navigate to the destination page smoothly | so I can find the information I want easily       |
+| As a user | I would like to find schedule easily                | so I can find event dates in no time                 |
+| As a user | I would like to find out what is the artist's motivation on her composition  | so I can see if her music suits my interest            |
+| As a user | I would like to find out about genre of the artist's songs        | so I can see if her music suits my interest     |
+| As a user | I would like to listen to samples of her songs                           | so I can see if the music feeds my interest                      |
+| As a user | I would like to see how album jackets look like                | so I can find it the album interests me                           |
+| As a user | I would like to find out venue, date, time and duration of the event              | so I can find out if I can attend it.                     |
+| As a user | I would like to be able to ask question through a contact form                  | so I can ask questions.                              |
+| As a user | I would like to purchase the artist's products and event tickets     | so I can enjoy her music.                       |
+| As a user | I would like to be able to purchase the products securely          | so I feel safe through payment section. |
+| As a user | I would like to be able to register on this website                   | so I can purchase easily in the future.             |
+| As a user | I would like to be able to reset my password                         | so I can login again in case I forget my password                  |
+| As a user | I would like to be able to see my order history                      | so I can see what I purchased      |
+| As a user | I would like to be able to update the account details            | so I can update my address, phone number etc in case I change them  |
