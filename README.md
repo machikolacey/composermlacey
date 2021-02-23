@@ -187,4 +187,6 @@ I used Nanum Myeongjo as a secondary font to support the primary font, to give m
     <b><a href="#table-of-contents"> Back To Top</a></b>
 </div>
 
-
+### Wireframing
+As tablet layout is similar to mobile phone layout, tablet is omitted on this wireframe.
+https://github.com/machikolacey/composermlacey/blob/master/wireframes/wireframe.pdf
