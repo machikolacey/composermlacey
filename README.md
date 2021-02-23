@@ -162,6 +162,22 @@ I added pink and green as an accent, which depicts the new story of the artist's
 
 ![Color Palette](https://res.cloudinary.com/machikolacey/image/upload/v1614037482/milestone4/colour-choice_qmomnv.png)
 
+- Primary colour:![#14110f](https://via.placeholder.com/15/14110f/000000?text=+) `#14110f`
+- Secondary colour: ![#d9c5b2](https://via.placeholder.com/15/d9c5b2/000000?text=+) `#d9c5b2`
+- Main font colour: ![#34312d](https://via.placeholder.com/15/34312d/000000?text=+) `#34312d`
+- Secondary font colour: ![#f26a8d](https://via.placeholder.com/15/f26a8d/000000?text=+) `#f26a8d`
+
+
+#### Icons <!-- omit in toc -->
+
+I used Font Awesome 6 for their valiety and flexibility of their icons.
+
+
+#### Fonts <!-- omit in toc -->
+
+I used Naum Gothic as a primary font to depict these concept : elegance/ old fashioned and new / innovative fashion.
+
+I used Open Sans Condensed as a secondary font to support the primary font.
 
 <div align="right">
     <b><a href="#table-of-contents"> Back To Top</a></b>
