@@ -175,10 +175,10 @@ I used Font Awesome 6 for their valiety and flexibility of their icons.
 
 #### Fonts <!-- omit in toc -->
 
-I used Naum Gothic as a primary font to depict these concept : elegance/ old fashioned and new / innovative fashion.
-
-I used Open Sans Condensed as a secondary font to support the primary font.
-
+I used Nanum Gothic as a primary font to depict these concept : elegance/ old fashioned and new / innovative fashion.
+![Nanum Gothic](https://res.cloudinary.com/machikolacey/image/upload/v1614116773/milestone4/nanum-gothic_blh613.png)
+I used Nanum Myeongjo as a secondary font to support the primary font, to give more variety, and elegance.
+![Nanum Myeongjo](https://res.cloudinary.com/machikolacey/image/upload/v1614116768/milestone4/nanum-Myeongjo_tqz4so.png)
 <div align="right">
     <b><a href="#table-of-contents"> Back To Top</a></b>
 </div>
