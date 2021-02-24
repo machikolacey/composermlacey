@@ -216,6 +216,57 @@ https://github.com/machikolacey/composermlacey/blob/master/wireframes/wireframe.
 | name      | CharField | max_length=254    |
 | friendly_Name     | CharField | max_length=254, null=True, blank=True   |
 
+##### Product
+
+| Key       | Type      | Validation                                  |
+| --------- | --------- | ------------------------------------------- |
+| category      | ForeignKey | null=True, blank=True, on_delete=models.SET_NULL   |
+| sku     | CharField | max_length=254, null=True, blank=True  |
+| name     | CharField | max_length=254  |
+| description     | CharField | |
+| has_sizes     | BooleanField | default=False, null=True, blank=True |
+| price     | DecimalField | max_digits=6, decimal_places=2 |
+| rating     | DecimalField | max_digits=6, decimal_places=2, null=True, blank=Tru |
+| image_url     | CharField |max_length=1024, null=True, blank=True  |
+| image     | ImageField | null=True, blank=True |
+| download_link     | TextField | null=True, blank=True  |
+
+##### Review
+
+| Key       | Type      | Validation                                  |
+| --------- | --------- | ------------------------------------------- |
+| product      | ForeignKey |  on_delete=models.CASCADE  |
+| user     | ForeignKey |  on_delete=models.CASCADE  |
+| comment     | TextField |(max_length=1000  |
+| created_at     | DateField |auto_now_add=True |
+| updated_at     | DateField | auto_now=True |
+
+##### Event
+
+| Key       | Type      | Validation                                  |
+| --------- | --------- | ------------------------------------------- |
+| product      | OneToOneField |   |
+| start_date_time     | DateTimeField |    |
+| end_date_time     | DateTimeField | |
+| event_title     | TextField |max_length=250, null=True, blank=True |
+| is_virtual     | BooleanField | default=False, null=True, blank=True |
+| video_link     | TextField |(max_length=1000, null=True, blank=True |
+
+##### Album
+
+| Key       | Type      | Validation                                  |
+| --------- | --------- | ------------------------------------------- |
+| product      | OneToOneField |  on_delete = models.CASCADE |
+| album_runtime     | IntegerField | null=False, blank=False   |
+| album_jacket     | ImageField | null=True, blank=True |
+
+##### AlbumSongs
+
+| Key       | Type      | Validation                                  |
+| --------- | --------- | ------------------------------------------- |
+| album      | ForeignKey |  on_delete=models.CASCADE, related_name='albumsongs' |
+| song_title     | TextField | max_length=250, null=True, blank=True  |
+
 
 ####  Models used in checkout app  <!-- omit in toc -->
 
