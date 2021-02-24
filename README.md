@@ -12,9 +12,11 @@ There is a profile section to show her biology, and also the concept of her comp
 - [Table of Contents](#table-of-contents)
 - [UX](#ux)
   - [Project Goals](#project-goals)
-    - [Wireframes](#wireframes)
+    - [Wireframes](#Wireframing)
   - [User Stories](#user-stories)
-  - [Design Choices](#design-choices)
+  - [Design](#design)
+  - [Project Objectives](#project-objectives)
+  - [Information Architecture](#information-architecture)
 
 
 ## UX
@@ -191,7 +193,6 @@ I used Nanum Myeongjo as a secondary font to support the primary font, to give m
 ### Wireframing
 As tablet layout is similar to mobile phone layout, tablet is omitted on this wireframe.
 https://github.com/machikolacey/composermlacey/blob/master/wireframes/wireframe.pdf
-
 
 
 ## Information Architecture
