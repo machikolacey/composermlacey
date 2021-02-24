@@ -292,12 +292,14 @@ https://github.com/machikolacey/composermlacey/blob/master/wireframes/wireframe.
 | original_bag  | TextField               | null=False, blank=False, default=""                                     |
 | stripe_pid    | CharField               | max_length=254, null=False, blank=False, default=""                     |
 
+
+
 ##### OrderLineItem <!-- omit in toc -->
 
 | Key            | Type              | Validation                                                             |
 | -------------- | ----------------- | ---------------------------------------------------------------------- |
 | order          | ForeignKey: Order | null=False, blank=False, on_delete=models.CASCADE                      |
-| cd             | ForeignKey: Cd    | null=False, blank=False, on_delete=models.PROTECT                      |
+| cd             | ForeignKey: Cd    | null=False, blank=False, on_delete=models.CASCADE                      |
 | quantity       | IntegerField      | null=False, blank=False, default=0                                     |
 | lineitem_total | DecimalField      | max_digits=6, decimal_places=2 null=False, blank=False, editable=False |
 
