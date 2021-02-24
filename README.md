@@ -190,3 +190,67 @@ I used Nanum Myeongjo as a secondary font to support the primary font, to give m
 ### Wireframing
 As tablet layout is similar to mobile phone layout, tablet is omitted on this wireframe.
 https://github.com/machikolacey/composermlacey/blob/master/wireframes/wireframe.pdf
+
+
+
+## Information Architecture
+
+### Models
+
+#### Models used in home app <!-- omit in toc -->
+
+##### Advert <!-- omit in toc -->
+
+| Key       | Type       | Validation                                                                                                    |
+| --------- | ---------- | ------------------------------------------------------------------------------------------------------------- |
+| link_url  | CharField  | max_length=1024, null=True, blank=True                                                                                    |
+| banner    | CharField  | null=True, blank=True                                                                                                         |
+| name      | URLField   | null=True, blank=True                                                                        |
+
+#### Models used in products app  <!-- omit in toc -->
+
+##### Category <!-- omit in toc -->
+
+| Key       | Type      | Validation                                  |
+| --------- | --------- | ------------------------------------------- |
+| name      | CharField | max_length=254    |
+| friendly_Name     | CharField | max_length=254, null=True, blank=True   |
+
+
+####  Models used in checkout app  <!-- omit in toc -->
+
+##### Order <!-- omit in toc -->
+
+| Key           | Type                    | Validation                                                              |
+| ------------- | ----------------------- | ----------------------------------------------------------------------- |
+| order_number  | CharField               | max_length=32, null=False, editable=False                               |
+| profile       | ForeignKey: UserProfile | on_delete=models.SET_NULL, null=True, blank=True, related_name='orders' |
+| full_name     | CharField               | max_length=50, null=False, blank=False                                  |
+| email         | EmailField              | max_length=254, null=False, blank=False                                 |
+| phone_number  | CharField               | max_length=20, null=False, blank=False                                  |
+| country       | CountryField            | blank_label='Country*', null=False, blank=False                         |
+| postcode      | CharField               | max_length=20, null=True, blank=True                                    |
+| town_or_city  | CharField               | max_length=40, null=False, blank=False                                  |
+| address_line1 | CharField               | max_length=80, null=False, blank=False                                  |
+| address_line2 | CharField               | max_length=80, null=True, blank=True                                    |
+| date          | DateTimeField           | auto_now_add=True                                                       |
+| delivery_cost | DecimalField            | max_digits=6, decimal_places=2, null=False, default=0                   |
+| order_total   | DecimalField            | max_digits=10, decimal_places=2, null=False, default=0                  |
+| order_items   | DecimalField            | max_digits=4, decimal_places=2, null=False, default=0                   |
+| grand_total   | DecimalField            | max_digits=10, decimal_places=2, null=False, default=0                  |
+| original_bag  | TextField               | null=False, blank=False, default=""                                     |
+| stripe_pid    | CharField               | max_length=254, null=False, blank=False, default=""                     |
+
+##### OrderLineItem <!-- omit in toc -->
+
+| Key            | Type              | Validation                                                             |
+| -------------- | ----------------- | ---------------------------------------------------------------------- |
+| order          | ForeignKey: Order | null=False, blank=False, on_delete=models.CASCADE                      |
+| cd             | ForeignKey: Cd    | null=False, blank=False, on_delete=models.PROTECT                      |
+| quantity       | IntegerField      | null=False, blank=False, default=0                                     |
+| lineitem_total | DecimalField      | max_digits=6, decimal_places=2 null=False, blank=False, editable=False |
+
+
+<div align="right">
+    <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
