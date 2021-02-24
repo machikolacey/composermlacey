@@ -157,10 +157,11 @@ The main goals of the site for the visitors are:
 ### Design
 #### Colors <!-- omit in toc -->
 
-I chose black as a simbolistic image of piano, as a piano composer. Also chose supporting colour to look elegant and classical.
+I chose black as a simbolistic image of piano, as a piano composer. Also chose supporting 
+to look elegant and classical.
 I added pink and green as an accent, which depicts the new story of the artist's passion for new genre of piano songs.
 
-![Color Palette](https://res.cloudinary.com/machikolacey/image/upload/v1614037482/milestone4/colour-choice_qmomnv.png)
+![Color Palette](https://res.cloudinary.com/machikolacey/image/upload/v1614203762/milestone4/colour_scheme_xfrdp0.png)
 
 - Primary colour:![#14110f](https://via.placeholder.com/15/14110f/000000?text=+) `#14110f`
 - Secondary colour: ![#d9c5b2](https://via.placeholder.com/15/d9c5b2/000000?text=+) `#d9c5b2`
