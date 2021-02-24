@@ -324,3 +324,44 @@ https://github.com/machikolacey/composermlacey/blob/master/wireframes/wireframe.
 <div align="right">
     <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
+
+
+
+## Technologies Used
+
+### Front-end  <!-- omit in toc -->
+
+-  HTML: Used as mark-up language to display contents on browsers
+-  CSS: Used to style up HTML contents
+- Bootstrap: for grid system and responsiveness for tablet and mobile phone users.
+- JavaScript: For advert carousel, animation, etc.
+- jQuery, to display carousel images on homepage
+-  Font Awesome 6 to add icons 
+-  Google Fonts, used to display contents in the primary and secondary fonts.
+
+### Back-end Technologies <!-- omit in toc -->
+
+- Python Framework used as the base of the project.
+-  Python, back-end language, to connect to Database
+-  Django-allauth, for authentication (User management)
+-  Django-storages, for protection of storage
+- Stripe
+- AWS, to store all static and media files.
+- SQLite, local database.
+- Postgresql, the database storing all tables and records.
+- Django Cleanup, deletes files from fs when user does from the admin or app.
+- Django Bootstrap Datepicker Plus, displays a stylish datepicker in the events forms.
+
+### Other technologies <!-- omit in toc -->
+
+- Visual Studio Code: my IDE of choice for all my projects.
+- GitHub: My remote storage for this project.
+- Heroku, the platform to deploy the app.
+- Balsamiq: to create the wireframes of this project.
+- Cloudinary: to store background images and the images of this readme file.
+
+
+<div align="right">
+    <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
