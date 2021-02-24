@@ -220,7 +220,7 @@ https://github.com/machikolacey/composermlacey/blob/master/wireframes/wireframe.
 
 | Key       | Type      | Validation                                  |
 | --------- | --------- | ------------------------------------------- |
-| category      | ForeignKey | null=True, blank=True, on_delete=models.SET_NULL   |
+| category      | ForeignKey : Category| null=True, blank=True, on_delete=models.SET_NULL   |
 | sku     | CharField | max_length=254, null=True, blank=True  |
 | name     | CharField | max_length=254  |
 | description     | CharField | |
@@ -235,8 +235,8 @@ https://github.com/machikolacey/composermlacey/blob/master/wireframes/wireframe.
 
 | Key       | Type      | Validation                                  |
 | --------- | --------- | ------------------------------------------- |
-| product      | ForeignKey |  on_delete=models.CASCADE  |
-| user     | ForeignKey |  on_delete=models.CASCADE  |
+| product      | ForeignKey : Product | : Product  on_delete=models.CASCADE  |
+| user     | ForeignKey : User  |  on_delete=models.CASCADE  |
 | comment     | TextField |(max_length=1000  |
 | created_at     | DateField |auto_now_add=True |
 | updated_at     | DateField | auto_now=True |
@@ -245,12 +245,14 @@ https://github.com/machikolacey/composermlacey/blob/master/wireframes/wireframe.
 
 | Key       | Type      | Validation                                  |
 | --------- | --------- | ------------------------------------------- |
-| product      | OneToOneField |   |
+| product      | OneToOneField : Product   | on_delete=models.CASCADE|
 | start_date_time     | DateTimeField |    |
-| end_date_time     | DateTimeField | |
+| end_date_time     | DateTimeField | ||
 | event_title     | TextField |max_length=250, null=True, blank=True |
 | is_virtual     | BooleanField | default=False, null=True, blank=True |
 | video_link     | TextField |(max_length=1000, null=True, blank=True |
+
+
 
 ##### Album
 
@@ -264,7 +266,7 @@ https://github.com/machikolacey/composermlacey/blob/master/wireframes/wireframe.
 
 | Key       | Type      | Validation                                  |
 | --------- | --------- | ------------------------------------------- |
-| album      | ForeignKey |  on_delete=models.CASCADE, related_name='albumsongs' |
+| album      | ForeignKey : Album |  on_delete=models.CASCADE, related_name='albumsongs' |
 | song_title     | TextField | max_length=250, null=True, blank=True  |
 
 
