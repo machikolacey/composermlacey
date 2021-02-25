@@ -200,9 +200,7 @@ https://github.com/machikolacey/composermlacey/blob/master/wireframes/wireframe.
 
 ## Information Architecture
 
-### Models
-
-#### Models used in home app <!-- omit in toc -->
+### Models used in home app <!-- omit in toc -->
 
 ##### Advert <!-- omit in toc -->
 
@@ -212,7 +210,7 @@ https://github.com/machikolacey/composermlacey/blob/master/wireframes/wireframe.
 | banner    | CharField  | null=True, blank=True                                                                                                         |
 | name      | URLField   | null=True, blank=True                                                                        |
 
-#### Models used in products app  <!-- omit in toc -->
+### Models used in products app  <!-- omit in toc -->
 
 ##### Category <!-- omit in toc -->
 
@@ -275,7 +273,7 @@ https://github.com/machikolacey/composermlacey/blob/master/wireframes/wireframe.
 | song_title     | TextField | max_length=250, null=True, blank=True  |
 
 
-####  Models used in checkout app  <!-- omit in toc -->
+###  Models used in checkout app  <!-- omit in toc -->
 
 ##### Order <!-- omit in toc -->
 
@@ -311,8 +309,8 @@ https://github.com/machikolacey/composermlacey/blob/master/wireframes/wireframe.
 | lineitem_total | DecimalField      | max_digits=6, decimal_places=2 null=False, blank=False, editable=False |
 
 
-####  Models used in profile app  <!-- omit in toc -->
-
+###  Models used in profile app  <!-- omit in toc -->
+#### user
 | Key            | Type              | Validation                                                             |
 | -------------- | ----------------- | ---------------------------------------------------------------------- |
 | user          | OneToOneField: User | on_delete=models.CASCADE                  |
