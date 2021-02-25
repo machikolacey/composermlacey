@@ -120,8 +120,8 @@ The main goals of the site for the visitors are:
 
 #### For the visitor <!-- omit in toc -->
 
-| As a user&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | I would like to                                                      | so                                                     |
-| ------------------------------------  | -------------------------------------------------------------------- | ------------------------------------------------------ |
+| As a user&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | I would like to&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   | so&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  |
+| --------------------------------------------------------  | -------------------------------------------------------------------- | ------------------------------------------------------ |
 | As a user&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | I would like to find out up-coming events and recent albums on top of the homepage | so I can find out up-coming events and recent albums at a glance  |                                |
 | As a user | I would like to navigate to the destination page smoothly | so I can find the information I want easily       |
 | As a user | I would like to find schedule easily                | so I can find event dates in no time                 |
@@ -143,7 +143,7 @@ The main goals of the site for the visitors are:
 
 #### For the site owner <!-- omit in toc -->
 
-| As a user&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   | I would like to                                                                  | so                                                             |
+| As a user&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   | I would like to&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| so&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                                                             |
 | --------------------------------------------- | -------------------------------------------------------------------------------- | -------------------------------------------------------------- |
 | As a user&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  | I would like to be able to add a product easily | so I feel ease on adding product  |
 | As a user | I would like to be able to edit a product easily | so I can update product details at ease            |
@@ -334,35 +334,38 @@ https://github.com/machikolacey/composermlacey/blob/master/wireframes/wireframe.
 ## Technologies Used
 
 ### Front-end  <!-- omit in toc -->
+###### Languages
+-  HTML
+-  CSS
 
--  HTML: Used as mark-up language to display contents on browsers
--  CSS: Used to style up HTML contents
-- Bootstrap: for grid system and responsiveness for tablet and mobile phone users.
-- JavaScript: For advert carousel, animation, etc.
-- jQuery, to display carousel images on homepage
--  Font Awesome 6 to add icons 
--  Google Fonts, used to display contents in the primary and secondary fonts.
+###### Tools & Frameworks
+- Bootstrap
+- JavaScript
+- jQuery
+-  Font Awesome 6
+-  Google Fonts
 
 ### Back-end Technologies <!-- omit in toc -->
+###### Languages
+- Python
 
-- Python Framework used as the base of the project.
--  Python, back-end language, to connect to Database
--  Django-allauth, for authentication (User management)
--  Django-storages, for protection of storage
+###### Tools & Frameworks
+-  Django-allauth
+-  Django-storages
 - Stripe
-- AWS, to store all static and media files.
-- SQLite, local database.
-- Postgresql, the database storing all tables and records.
-- Django Cleanup, deletes files from fs when user does from the admin or app.
-- Django Bootstrap Datepicker Plus, displays a stylish datepicker in the events forms.
+- AWS
+- SQLite
+- Postgresql
+- Django Cleanup
+- Django Bootstrap
 
 ### Other technologies <!-- omit in toc -->
 
-- Visual Studio Code: my IDE of choice for all my projects.
-- GitHub: My remote storage for this project.
-- Heroku, the platform to deploy the app.
-- Balsamiq: to create the wireframes of this project.
-- Cloudinary: to store background images and the images of this readme file.
+- Visual Studio Code
+- GitHub
+- Heroku
+- Balsamiq
+- Cloudinary
 
 
 <div align="right">
