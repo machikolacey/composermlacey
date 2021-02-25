@@ -1,10 +1,13 @@
 # Composer Machiko Lacey-Kimura website
 
-Machiko Lacey-Kimura, A.K.A Kim Lacey is a composer, pianist. Coming from Classical piano background, she started writing songs in 2016, when she dived into Jazz and rock music in her play.
-Kim started writing her Neo-classical song when she was practicing improvisation on second and ninth degree in A minor. She named her first song “A29”. However, she realised that she uses a drive way “A27” which is more close to her home, and re-named the song to “A27”.
+<b>Machiko Lacey-Kimura</b>, A.K.A Kim Lacey is a composer, pianist. Coming from Classical piano background, she started writing songs in 2016, when she dived into Jazz and rock music in her play.
+
+Kim started writing her Neo-classical song when she was practicing improvisation on second and ninth degree in A minor. She named her first song <b>“A29”</b>. However, she realised that she uses a drive way <b>“A27”</b> which is more close to her home, and re-named the song to <b>“A27”</b>.
 She wants to express the feelings of boredom, irritation and impatience most of us feel daily in our daily lives.
+
 This website shows her journey on her piano composition, which resonates with the people driving to commute daily, who live in the area far from their work, school, and community.  
 She provides CD albums and digital concert event through her online shop. There is an advert section on the homepage to show current promotion. 
+
 There is a profile section to show her biology, and also the concept of her composition with a map of East Sussex in England.
 
 ## Table of Contents
@@ -178,13 +181,13 @@ I used Font Awesome 6 for their valiety and flexibility of their icons.
 
 #### Fonts <!-- omit in toc -->
 
-I used Nanum Gothic as a primary font to depict these concept : elegance/ old fashioned and new / innovative fashion.
+I used Nanum Gothic as a header font to depict these concept : elegance/ old fashioned and new / innovative fashion.
 
 ![Nanum Gothic](https://res.cloudinary.com/machikolacey/image/upload/v1614116773/milestone4/nanum-gothic_blh613.png)
 
-I used Nanum Myeongjo as a secondary font to support the primary font, to give more variety, and elegance.
+I used Nanum Myeongjo as a normal font to support the primary font. This font is easy to read, and readable from a distance.
 
-![Nanum Myeongjo](https://res.cloudinary.com/machikolacey/image/upload/v1614116768/milestone4/nanum-Myeongjo_tqz4so.png)
+![Nanum Myeongjo](https://res.cloudinary.com/machikolacey/image/upload/v1614293171/milestone4/google-font-open-sans_cbztjc.jpg)
 
 <div align="right">
     <b><a href="#table-of-contents"> Back To Top</a></b>
