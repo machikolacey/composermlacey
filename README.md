@@ -120,9 +120,9 @@ The main goals of the site for the visitors are:
 
 #### For the visitor <!-- omit in toc -->
 
-| As a user&nbsp;&nbsp;&nbsp;&nbsp; | I would like to                                                      | so                                                     |
+| As a user&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | I would like to                                                      | so                                                     |
 | ------------------------------------  | -------------------------------------------------------------------- | ------------------------------------------------------ |
-| As a user | I would like to find out up-coming events and recent albums on top of the homepage | so I can find out up-coming events and recent albums at a glance  |                                |
+| As a user&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | I would like to find out up-coming events and recent albums on top of the homepage | so I can find out up-coming events and recent albums at a glance  |                                |
 | As a user | I would like to navigate to the destination page smoothly | so I can find the information I want easily       |
 | As a user | I would like to find schedule easily                | so I can find event dates in no time                 |
 | As a user | I would like to find out what is the artist's motivation on her composition  | so I can see if her music suits my interest            |
@@ -143,9 +143,9 @@ The main goals of the site for the visitors are:
 
 #### For the site owner <!-- omit in toc -->
 
-| As a user&nbsp;&nbsp;&nbsp;&nbsp;  | I would like to                                                                  | so                                                             |
-| --------- | -------------------------------------------------------------------------------- | -------------------------------------------------------------- |
-| As a user | I would like to be able to add a product easily | so I feel ease on adding product  |
+| As a user&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   | I would like to                                                                  | so                                                             |
+| --------------------------------------------- | -------------------------------------------------------------------------------- | -------------------------------------------------------------- |
+| As a user&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  | I would like to be able to add a product easily | so I feel ease on adding product  |
 | As a user | I would like to be able to edit a product easily | so I can update product details at ease            |
 | As a user | I would like to be able to delete a product     | so it won't show up on the website.                  |
 | As a user | I would like to be able to add album songs      | so they will be displayed on the album product page  |
