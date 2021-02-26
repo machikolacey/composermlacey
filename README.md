@@ -333,29 +333,29 @@ https://github.com/machikolacey/composermlacey/blob/master/wireframes/wireframe.
 
 ### Front-end  <!-- omit in toc -->
 ###### Languages
--  HTML
--  CSS
+-  [HTML](https://en.wikipedia.org/wiki/HTML)
+-  [CSS](https://en.wikipedia.org/wiki/CSS)
 
 ###### Tools & Frameworks
-- Bootstrap
-- JavaScript
-- jQuery
--  Font Awesome 6
--  Google Fonts
+- [Bootstrap](https://getbootstrap.com/docs/4.0/getting-started/introduction/)
+- [JavaScript](https://www.javascript.com/)
+- [jQuery](https://jquery.com/)
+- [Font Awesome 6](https://fontawesome.com/)
+- [Google Fonts](https://fonts.google.com/)
 
 ### Back-end Technologies <!-- omit in toc -->
 ###### Languages
-- Python
+- [Python](https://www.python.org/)
 
 ###### Tools & Frameworks
--  Django-allauth
--  Django-storages
-- Stripe
-- AWS
-- SQLite
-- Postgresql
-- Django Cleanup
-- Django Bootstrap
+-  [Django-allauth](https://django-allauth.readthedocs.io/)
+-  [Django-storages](https://django-storages.readthedocs.io/en/latest/)
+- [Stripe](https://stripe.com/)
+- [AWS](https://aws.amazon.com/)
+- [SQLite](https://stripe.com/)
+- [Postgresql](https://www.tableau.com/)
+- [Django Cleanup](https://pypi.org/project/django-cleanup/)
+- [Django Bootstrap](https://pypi.org/project/django-bootstrap4/)
 
 ### Other technologies <!-- omit in toc -->
 
