@@ -1,6 +1,6 @@
 from django import forms
 from .widgets import CustomClearableFileInput
-from .models import Product, Category, Review 
+from .models import Product, Category, Review
 from django.contrib.auth.models import User
 
 class ProductForm(forms.ModelForm):
@@ -27,3 +27,4 @@ class ReviewForm(forms.ModelForm):
 
         model = Review
         fields = ("comment", )
+        
