@@ -7,6 +7,7 @@ body {
     height: calc(100vh - 164px);
     color: #555;
     font-family: 'Lato', sans-serif;
+    background: #8fd694;
 }
 
 
@@ -14,6 +15,9 @@ header{
     background:#14110f;
 }
 
+header a{
+        color: #fff;
+}
 nav{
     background:#d9c5b2;
 }
@@ -284,6 +288,7 @@ input[name='q']::placeholder {
 
 .slick-slide img {
    height:340px;
+   width:100%;
 }
 
 
