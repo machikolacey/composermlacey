@@ -9,6 +9,15 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
+
+header{
+    background:#14110f;
+}
+
+nav{
+    background:#d9c5b2;
+}
+
 /* from Bulma */
 .icon {
     align-items: center;
