@@ -1,15 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+/*
+colour palette
+Primary colour black:#14110f 
+Secondary colour beige: #d9c5b2 
+Main font colour black : #34312d 
+Secondary font colour pink: #f26a8d 
+Accent green : #86d694
+Accent pink : #A26F8AD
+
+*/
+
 html {
     height: 100%;
 }
 
 body {
-  
+    font-family: 'Open Sans', sans-serif;
     height: calc(100vh - 164px);
-    color: #555;
-    font-family: 'Lato', sans-serif;
-    background: #8fd694;
+    color: #14110f ;
 }
 
+h1, h2, h3, h4, h5, h6{
+      font-family: 'Nanum Gothic', sans-serif;
+      color:#f26a8d ;
+}
 
 header{
     background:#14110f;
@@ -118,6 +133,11 @@ input[name='q']::placeholder {
     color: #aab7c4;
 }
 
+.card{
+    padding:10px;
+    border: 1px solid #dfe3e6 !important;
+}
+
 /* ------------------------------- bootstrap toasts */
 
 .message-container {
@@ -149,11 +169,11 @@ input[name='q']::placeholder {
 
 /* Convenience classes - colors copied from Bootstrap */
 .arrow-primary {
-    border-bottom-color: #007bff !important;
+    border-bottom-color: #8fd694 !important;
 }
 
 .arrow-secondary {
-    border-bottom-color: #6c757d !important;
+    border-bottom-color: #8fd694  !important;
 }
 
 .arrow-success {
@@ -247,6 +267,10 @@ input[name='q']::placeholder {
 
 .allauth-form-inner-content a {
 	color: #17a2b8; /* text-info */
+}
+
+.product-list{
+    padding: 10px 0 40px 0;
 }
 
 /* Product Form */
