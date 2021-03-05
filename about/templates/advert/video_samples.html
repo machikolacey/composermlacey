@@ -20,9 +20,18 @@ Sample video template
 
 
 {% load embed_video_tags %}
-{% for video in sampleVideos %}
+    {% for video in sampleVideos %}
 
-{% video video.embed '100% x 50%' %}
+<div class="row">
+    <div class="col-sm-7">
+        <h3>{{ video.title }}</h3>
+        <p>{{ video.details }}</p>
+    </div>
+    <div class="col-sm-5">
+    {% video video.embed  small %}
+    </div>
+</div>
+
 
 
 

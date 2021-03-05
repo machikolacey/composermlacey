@@ -19,6 +19,7 @@ class SampleVideo(models.Model):
     subtitle = models.CharField(max_length=254)
     embed = EmbedVideoField(null=True, blank=True)
     details = models.TextField(null=True, blank=True)
+    thumbnail = models.ImageField(null=True, blank=True)
 
     def __str__(self):
         return self.title
