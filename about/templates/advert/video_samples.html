@@ -18,12 +18,19 @@
 Sample video template
 <div class="page-content">
 
-        {% for video in sampleVideos %}
-   
-                {{  video.embed }} 
- 
-           
-        {% endfor %}
+
+{% load embed_video_tags %}
+{% for video in sampleVideos %}
+
+{% video video.embed '100% x 50%' %}
+
+
+
+{% endfor %}
+
+
+
+
 </div>
 
 
