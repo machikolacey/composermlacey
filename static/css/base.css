@@ -34,7 +34,7 @@ header a{
         color: #fff;
 }
 nav{
-    background:#d9c5b2;
+    background: #86d694;
 }
 
 /* from Bulma */
@@ -327,7 +327,8 @@ input[name='q']::placeholder {
     }
 
     .header-container {
-        padding-top: 164px;
+        padding-top: 124px;
+        
     }
 }
 
