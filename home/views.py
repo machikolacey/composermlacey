@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from .models import Advert
+from .models import Advert, homepageVideo
 from products.models import Product
 
 def index(request):
@@ -7,10 +7,12 @@ def index(request):
 
     adverts = Advert.objects.all()
     products = Product.objects.all()
+    homepagevideos = homepageVideo.objects.all()
 
     context = {
         'adverts': adverts,
         'products': products,
+        'homepagevideos': homepagevideos
     }
     return render(request, 'home/index.html', context)
 

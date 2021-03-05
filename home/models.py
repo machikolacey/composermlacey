@@ -1,4 +1,5 @@
 from django.db import models
+from embed_video.fields import EmbedVideoField
 
 # Create your models here.
 
@@ -10,3 +11,13 @@ class Advert(models.Model):
 
     def __str__(self):
         return self.name
+
+
+
+class homepageVideo(models.Model):
+
+    title = models.CharField(max_length=254)
+    subtitle = models.CharField(max_length=254)
+    embed = EmbedVideoField(null=True, blank=True)
+    details = models.TextField(null=True, blank=True)
+    
