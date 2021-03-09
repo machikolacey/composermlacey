@@ -136,6 +136,16 @@ input[name='q']::placeholder {
 .card{
     padding:10px;
     border: 1px solid #dfe3e6 !important;
+    background: #d9c5b2 ;
+}
+
+.card-footer ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+.linksbar{
+
 }
 
 /* ------------------------------- bootstrap toasts */
