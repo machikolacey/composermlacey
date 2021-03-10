@@ -50,7 +50,9 @@ nav{
     background: #86d694;
 }
 
-
+.header-container {
+    padding-top: 76px;
+}
 textarea{
     width:100%;
 }
@@ -60,6 +62,7 @@ textarea{
     background: #e3f5ee;
     padding: 10px;
 }
+
 
 
 
@@ -351,9 +354,28 @@ input[name='q']::placeholder {
    width:100%;
 }
 
+@media (min-width: 1024px) {
+    .homepage-banner .pc{
+        display:block;
+    }
+    .homepage-banner .tablet, .homepage-banner .mobile{
+        display:none;
+    }
+
+}
+@media (max-width: 1023px) and (min-width:768px){
+    .homepage-banner .tablet{
+        display:block;
+    }
+    .homepage-banner .pc, .homepage-banner .mobile{
+        display:none;
+    }
+
+ }
 
 /* fixed top navbar only on medium and up */
 @media (min-width: 992px) {
+
     .fixed-top-desktop-only {
         position: fixed;
         top: 0;
@@ -363,17 +385,14 @@ input[name='q']::placeholder {
     }
 
     .header-container {
-        padding-top: 124px;
-        
+            padding-top: 136px;
+
     }
 }
 
 /* pad the top a bit when navbar is collapsed on mobile */
 @media (max-width: 991px) {
-    .header-container {
-        padding-top: 116px;
-    }
-
+  
     body {
         height: calc(100vh - 116px);
     }
@@ -413,4 +432,14 @@ input[name='q']::placeholder {
     .increment-qty, .decrement-qty {
         padding: .25rem .5rem !important;
     }
+}
+@media (max-width: 767px) {
+
+  .homepage-banner .mobile{
+        display:block;
+    }
+    .homepage-banner .pc, .homepage-banner .tablet{
+        display:none;
+    }
+
 }
