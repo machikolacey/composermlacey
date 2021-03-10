@@ -26,6 +26,19 @@ h1, h2, h3, h4, h5, h6{
       color:#f26a8d ;
 }
 
+a {
+    color: #f26b8e;
+}
+dl, ol, ul {
+    margin: 0;
+    padding: 0;
+}
+.btn-primary {
+    color: #14110f;
+    background-color: #86d694;
+    border-color: #86d694;
+}
+
 header{
     background:#14110f;
 }
@@ -36,6 +49,19 @@ header a{
 nav{
     background: #86d694;
 }
+
+
+textarea{
+    width:100%;
+}
+
+
+.reviews{
+    background: #e3f5ee;
+    padding: 10px;
+}
+
+
 
 /* from Bulma */
 .icon {
