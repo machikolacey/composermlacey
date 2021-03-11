@@ -6,6 +6,8 @@ from embed_video.fields import EmbedVideoField
 class Advert(models.Model):
     link_url = models.URLField(max_length=1024, null=True, blank=True)
     banner = models.ImageField(null=True, blank=True)
+    banner_tablet_size = models.ImageField(null=True, blank=True)
+    banner_mobile_size = models.ImageField(null=True, blank=True)    
     name = models.TextField(null=True, blank=True)
 
 
