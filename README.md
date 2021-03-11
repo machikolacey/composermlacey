@@ -204,11 +204,13 @@ https://github.com/machikolacey/composermlacey/blob/master/wireframes/wireframe.
 
 ##### Advert <!-- omit in toc -->
 
-| Key       | Type       | Validation                                                                                                    |
-| --------- | ---------- | ------------------------------------------------------------------------------------------------------------- |
-| link_url  | CharField  | max_length=1024, null=True, blank=True                                                                                    |
-| banner    | CharField  | null=True, blank=True                                                                                                         |
-| name      | URLField   | null=True, blank=True                                                                        |
+| Key                    | Type       | Validation                                |
+| ---------------------- | ---------- | ------------------------------------------|
+| link_url               | CharField  | max_length=1024, null=True, blank=True    |
+| banner                 | CharField  | null=True, blank=True                     |   
+| banner_tablet_size     |  CharFIeld | null=True, blank=True                     |
+| banner_mobile_size     |  CharFIeld | null=True, blank=True                     |
+| name                   | URLField   | null=True, blank=True                     |
 
 ### Models used in products app  <!-- omit in toc -->
 
