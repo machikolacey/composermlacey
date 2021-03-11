@@ -18,8 +18,6 @@
         {% for advert in adverts %} 
             <div class="item">
                 <img src="{{ MEDIA_URL }}{{ advert.banner }}" class="pc" />
-                <img src="{{ MEDIA_URL }}{{ advert.banner_tablet_size }}" class="tablet" />
-                <img src="{{ MEDIA_URL }}{{ advert.banner_mobile_size }}" class="mobile" />
            </div>
         {% endfor %}
 </div>
