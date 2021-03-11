@@ -55,6 +55,12 @@ textarea{
     width:100%;
 }
 
+.slick-track{
+    width:auto;
+}
+.slick-dotted.slick-slider{
+    margin-bottom:10px;
+}
 
 .reviews{
     background: #e3f5ee;
@@ -388,10 +394,7 @@ input[name='q']::placeholder {
         z-index: 1030;
     }
 
-    .header-container {
-            padding-top: 136px;
-
-    }
+   
 }
 
 /* pad the top a bit when navbar is collapsed on mobile */
