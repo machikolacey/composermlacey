@@ -27,17 +27,19 @@
 
 {% load embed_video_tags %}
 {% for video in homepagevideos %}
-<div class="container">
-   <div class="row">
-        <div class="col-sm-7">
-            <h3>{{ video.title }}</h3>
-            <p>{{ video.details }}</p>
-        </div>
-        <div class="col-sm-5">
-        {% video video.embed  small %}
-        </div>
-    </div>  
-    <p>For more videos, please   <a class="logo-font font-weight-bold nav-link text-black" href="/about/sample-videos">Please visit Sample Videos page.</a></p>
+<div class="video-card">
+    <div class="container">
+    <div class="row">
+            <div class="col-sm-7">
+                <h3>{{ video.title }}</h3>
+                <p>{{ video.details }}</p>
+            </div>
+            <div class="col-sm-5">
+            {% video video.embed  small %}
+            </div>
+        </div>  
+      
+    </div>
 </div>
 {% endfor %}
 <div class="container">
