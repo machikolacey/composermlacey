@@ -69,13 +69,17 @@ textarea{
     padding: 10px;
 }
 
-
+.video-card{
+    padding: 10px;
+    border: 1px solid #f57a8d;
+    margin: 20px 0 20px 0;
+}
 
 
  #photo{
       clear:both;
       line-height:0;
-      column-count:4;
+      column-count:2;
       column-gap:0;
     }
 #photo img{
@@ -380,6 +384,7 @@ input[name='q']::placeholder {
 @media (min-width: 1024px) {
     .homepage-banner .pc{
         display:block;
+        width:100%;
     }
     .homepage-banner .tablet, .homepage-banner .mobile{
         display:none;
