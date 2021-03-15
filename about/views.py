@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from .models import Page
 from .models import SampleVideo
-
+from .models import Images
 
 
 def index(request, permalink):
@@ -15,6 +15,8 @@ def index(request, permalink):
         page = None
 
 
+    images = Images.objects.filter(page=page)
+
     if(permalink == 'sample-videos'):
         template = 'advert/video_samples.html'
     else:
@@ -22,7 +24,8 @@ def index(request, permalink):
 
     context = {
         'page': page,
-        'sampleVideos': sampleVideos
+        'sampleVideos': sampleVideos,
+        'images': images
     }
     return render(request, template, context)
 

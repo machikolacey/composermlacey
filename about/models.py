@@ -24,3 +24,13 @@ class SampleVideo(models.Model):
     def __str__(self):
         return self.title
 
+
+
+class Images(models.Model):
+
+    page = models.ForeignKey('Page', null=True, blank=True, on_delete=models.SET_NULL)
+    image = models.ImageField(null=True, blank=True)
+    caption = models.CharField(max_length=254, null=True)
+
+    def __str__(self):
+        return self.caption
