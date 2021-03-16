@@ -1,15 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
 
-/*
-colour palette
-Primary colour black:#14110f 
-Secondary colour beige: #d9c5b2 
-Main font colour black : #34312d 
-Secondary font colour pink: #f26a8d 
-Accent green : #86d694
-Accent pink : #A26F8AD
-
-*/
 
 html {
     height: 100%;
@@ -195,13 +185,13 @@ input[name='q']::placeholder {
     box-shadow: 2px 2px 2px rgb(0 0 0 / 60%);
 }
 
+.card-footer {
+    background-color: transparent;
+}
+
 .card-footer ul{
     list-style: none;
     padding-left: 0;
-}
-
-.linksbar{
-
 }
 
 /* ------------------------------- bootstrap toasts */
