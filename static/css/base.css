@@ -100,26 +100,26 @@ textarea{
 }
 
 .shop-now-button {
-    background: black;
-    color: white;
+    background: #222;
+    color: #fff;
     min-width: 260px;
 }
 
 .btn-black {
-    background: black;
-    color: white;
+    background: #222;
+    color: #fff;
 }
 
 .btn-outline-black {
     background: white;
-    color: black !important; /* use important to override link colors for <a> elements */
-    border: 1px solid black;
+    color: #222 !important; /* use important to override link colors for <a> elements */
+    border: 1px solid #222;
 }
 
 .btn-outline-black:hover,
 .btn-outline-black:active,
 .btn-outline-black:focus {
-    background: black;
+    background:#222;
     color: white !important;
 }
 
@@ -138,7 +138,7 @@ textarea{
 }
 
 .border-black {
-    border: 1px solid black !important;
+    border: 1px solid #222 !important;
 }
 
 .bg-black {
@@ -217,7 +217,7 @@ input[name='q']::placeholder {
     height: 0; 
     border-left: 4px solid transparent;
     border-right: 4px solid transparent; 
-    border-bottom: 10px solid black;
+    border-bottom: 10px solid #222;
     position: absolute;
     top: -10px;
     right: 36px;
@@ -384,6 +384,7 @@ input[name='q']::placeholder {
 @media (max-width: 1023px) and (min-width:768px){
     .homepage-banner .tablet{
         display:block;
+        max-width:100%;
     }
     .homepage-banner .pc, .homepage-banner .mobile{
         display:none;
@@ -456,6 +457,7 @@ input[name='q']::placeholder {
 
   .homepage-banner .mobile{
         display:block;
+        max-width:100%;
     }
     .homepage-banner .pc, .homepage-banner .tablet{
         display:none;
