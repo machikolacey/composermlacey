@@ -25,7 +25,7 @@ Sample video template
         <div class="row">
             <div class="col-sm-7">
                 <h3>{{ video.title }}</h3>
-                <p>{{ video.details }}</p>
+                <p>{{ video.details | linebreaks }}</p>
             </div>
             <div class="col-sm-5">
                 <div class="videoWrapper">
