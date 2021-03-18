@@ -10,12 +10,10 @@ def index(request, permalink):
     sampleVideos = SampleVideo.objects.all()
 
     num = 0
-    for video in sampleVideos:
+    for index, video in enumerate(sampleVideos, start=0):
         embedvideo = video.youtube_link.replace("watch?v=", "embed/")
-        sampleVideos[num].embedvideo = embedvideo
-        num += 1
-        
-        
+        sampleVideos[index].embedvideo = embedvideo
+
 
     try:
         page = Page.objects.get(permalink=permalink)
