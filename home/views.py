@@ -7,12 +7,15 @@ def index(request):
 
     adverts = Advert.objects.all()
     products = Product.objects.all()
-    homepagevideos = homepageVideo.objects.all()
+    homepagevideo = homepageVideo.objects.first()
+
+    embedvideo = homepagevideo.subtitle.replace("watch?v=", "embed/")
 
     context = {
         'adverts': adverts,
         'products': products,
-        'homepagevideos': homepagevideos
+        'homepagevideo': homepagevideo,
+        'embedvideo': embedvideo
     }
     return render(request, 'home/index.html', context)
 

@@ -24,24 +24,21 @@
         {% endfor %}
 </div>
 
-
-{% load embed_video_tags %}
-{% for video in homepagevideos %}
 <div class="video-card">
     <div class="container">
     <div class="row">
             <div class="col-sm-7">
-                <h3>{{ video.title }}</h3>
-                <p>{{ video.details }}</p>
+                <h3>{{ homepagevideo.title }}</h3>
+                <p>{{ homepagevideo.details }}</p>
             </div>
             <div class="col-sm-5">
-            {% video video.embed  small %}
+            <iframe width="560" height="315" src="{{ embedvideo }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>  
       
     </div>
 </div>
-{% endfor %}
+
 <div class="container">
 <h2>MLK Shop</h2>
     <div class="product-list">
