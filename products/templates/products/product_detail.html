@@ -79,7 +79,7 @@
                     <p>
                         {% if album %}
                            <h3>Songs</h3>
-                            <ul>
+                            <ul class="song-titles">
                             {% for song in album.albumsongs.all %}
                                <li>{{ song.song_title }}</li>
                             {% endfor %}

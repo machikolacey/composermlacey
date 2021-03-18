@@ -73,6 +73,16 @@ textarea{
     padding: 10px;
 }
 
+ul.song-titles{
+    margin:0;
+    list-style:none;
+}
+
+ul.song-titles li{
+    font-weight:700;
+}
+
+
 .video-card{
     padding: 10px;
     border: 1px solid #f57a8d;
