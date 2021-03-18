@@ -9,6 +9,14 @@ def index(request, permalink):
 
     sampleVideos = SampleVideo.objects.all()
 
+    num = 0
+    for video in sampleVideos:
+        embedvideo = video.youtube_link.replace("watch?v=", "embed/")
+        sampleVideos[num].embedvideo = embedvideo
+        num += 1
+        
+        
+
     try:
         page = Page.objects.get(permalink=permalink)
     except ObjectDoesNotExist:
@@ -21,6 +29,9 @@ def index(request, permalink):
         template = 'advert/video_samples.html'
     else:
         template = 'advert/page.html'
+
+
+
 
     context = {
         'page': page,

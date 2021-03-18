@@ -19,7 +19,7 @@ Sample video template
 <div class="page-content">
 
 
-{% load embed_video_tags %}
+
     {% for video in sampleVideos %}
     <div class="video-card">
         <div class="row">
@@ -28,7 +28,9 @@ Sample video template
                 <p>{{ video.details }}</p>
             </div>
             <div class="col-sm-5">
-            {% video video.embed  small %}
+                <div class="videoWrapper">
+                    <iframe  src="{{  video.embedvideo }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div> 
             </div>
         </div>
     </div>  

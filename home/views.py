@@ -9,7 +9,7 @@ def index(request):
     products = Product.objects.all()
     homepagevideo = homepageVideo.objects.first()
 
-    embedvideo = homepagevideo.subtitle.replace("watch?v=", "embed/")
+    embedvideo = homepagevideo.youtube_link.replace("watch?v=", "embed/")
 
     context = {
         'adverts': adverts,
