@@ -20,7 +20,7 @@
         </form>
     </div>
 </li>
-<li class="list-inline-item dropdown">
+<li class="list-inline-item dropdown account">
     <a class="text-white nav-link d-block d-lg-none" href="#" id="user-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         <div class="text-center">
             <div><i class="fas fa-house-user" aria-hidden="true"></i></div>
@@ -40,7 +40,7 @@
         {% endif %}
     </div>
 </li>
-<li class="list-inline-item">
+<li class="list-inline-item cart">
     <a class="{% if grand_total %}text-primary font-weight-bold{% else %}text-white{% endif %} nav-link d-block d-lg-none" href="{% url 'view_bag' %}">
         <div class="text-center">
             <div><i class="fas fa-shopping-bag fa-lg"></i></div>

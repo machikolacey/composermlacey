@@ -28,6 +28,14 @@ dl, ol, ul {
     margin: 0;
     padding: 0;
 }
+
+.list-inline-item.cart a{
+    color:#f26a8d;
+}
+.list-inline-item.cart a:hover, .list-inline-item.account a:hover{
+    color:#7dba84;
+}
+
 .btn-primary {
     color: #14110f;
     background-color: #86d694;
@@ -113,8 +121,17 @@ ul.song-titles li{
     padding: 10px;
     margin: 20px 0 20px 0;
     color: #444;
+      background-image:url('../images/background-video-card.png');
+    background-repeat:no-repeat;
+        padding: 20px;
+
 }
 
+
+
+.video-card h3{
+        border-bottom: 1px solid #f26a8d;
+}
 
  #photo{
       clear:both;
@@ -419,6 +436,19 @@ input[name='q']::placeholder {
 .slick-slide img {
    width:100%;
 }
+
+footer{
+    text-align: center;
+    background: #000;
+    color: #c1bebe;
+
+    width: 100%;
+    bottom: 0;
+    font-style: italic;
+    padding: 20px 0 0 0;
+    font-size: 0.8rem;
+}
+
 
 @media (min-width: 1024px) {
     .homepage-banner .pc{
