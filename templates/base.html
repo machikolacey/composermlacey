@@ -66,40 +66,47 @@
             </div>
             <div class="col-xs-12 col-sm-3 my-auto py-1 py-lg-0 pc">
                 <ul class="list-inline list-unstyled text-center text-lg-right my-0">
-                    <li class="list-inline-item dropdown account">
-                        <a class="nav-link" href="#" id="user-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <div class="text-center">
-                                <div><i class="fas fa-house-user"></i></div>
-                                <p class="my-0">My Account</p>
-                            </div>
-                        </a>
-                        <div class="dropdown-menu border-0" aria-labelledby="user-options">
-                            {% if request.user.is_authenticated %}
+                   
+                         {% if request.user.is_authenticated %}
                                 {% if request.user.is_superuser %}
-                                    <a href="{% url 'add_product' %}" class="dropdown-item">Product Management</a>
+                                 <li class="list-inline-item dropdown account">
+                                      <a href="{% url 'add_product' %}" class="dropdown-item">Product Management</a>
+                                 </li>
+                                   
                                 {% endif %}
-                                <a href="{% url 'profile' %}" class="dropdown-item">My Profile</a>
-                                <a href="{% url 'account_logout' %}" class="dropdown-item">Logout</a>
+                                 <li class="list-inline-item dropdown account">
+                                    <a href="{% url 'profile' %}" class="dropdown-item">My Profile
+                                        <div class="text-center">
+                                         <div><i class="fas fa-house-user" aria-hidden="true"></i></div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item dropdown account">
+                                <a href="{% url 'account_logout' %}" class=" nav-link">Logout</a>
+                                </li>
                             {% else %}
-                                <a href="{% url 'account_signup' %}" class="dropdown-item">Register</a>
-                                <a href="{% url 'account_login' %}" class="dropdown-item">Login</a>
+                             <li class="list-inline-item dropdown account">
+                                  <a href="{% url 'account_signup' %}" class=" nav-link">Register</a>
+                             </li>
+                            <li class="list-inline-item dropdown account">
+                                <a href="{% url 'account_login' %}" class=" nav-link">Login</a>
+                            </li>
                             {% endif %}
-                        </div>
-                    </li>
-                    <li class="list-inline-item cart">
-                        <a class="{% if grand_total %}text-info font-weight-bold {% endif %} nav-link" href="{% url 'view_bag' %}">
-                            <div class="text-center">
-                                <div><i class="fas fa-shopping-bag"></i></div>
-                                <p class="my-0">
-                                    {% if grand_total %}
-                                        ${{ grand_total|floatformat:2 }}
-                                    {% else %}
-                                        $0.00
-                                    {% endif %}
-                                </p>
-                            </div>
-                        </a>
-                    </li>
+                                      
+                            <li class="list-inline-item cart">
+                                <a class="{% if grand_total %}text-info font-weight-bold {% endif %}" href="{% url 'view_bag' %}">
+                                    <div class="text-center">
+                                        <div><i class="fas fa-shopping-bag"></i></div>
+                                        <p class="my-0">
+                                            {% if grand_total %}
+                                                ${{ grand_total|floatformat:2 }}
+                                            {% else %}
+                                                $0.00
+                                            {% endif %}
+                                        </p>
+                                    </div>
+                                </a>
+                            </li>
                 </ul>
             </div>
         </div>
@@ -137,9 +144,15 @@
     {% endblock %}
  
     
-<footer>
-    <p>&copy Machiko Lacey-Kimura 2021</p>
-</footer>
+<div class="d-flex flex-column min-vh-100">
+    <nav>
+    </nav>
+    <main class="flex-fill">
+        MLK 2021
+    </main>
+    <footer>
+    </footer>
+</div>
 
 
   </body>

@@ -59,6 +59,59 @@ textarea{
 }
 
 
+#footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    clear: both;
+    height: 190px;
+    margin-top: -151px;
+    font-size: 16;
+    text-rendering: auto;
+    position: fixed;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.tableft {
+    float: left;
+    background-color: #00001A;
+    width: 40%;
+    height: 250px;
+    color: white;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+
+
+}
+
+.tabrigth {
+    float: right;
+    background-color: #00001A;
+    width: 35%;
+    height: 250px;
+    color: white;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.tabcenter {
+    float: right;
+    background-color: #00001A;
+    width: 25%;
+    height: 250px;
+    color: white;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+p {
+    margin-left: 40px;
+    margin-right: 80px;
+}
 .videoWrapper {
   position: relative;
   padding-bottom: 56.25%; /* 16:9 */
@@ -101,7 +154,15 @@ textarea{
     position: relative;
 }
 
-
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  line-height: 60px; /* Vertically center the text there */
+  background-color: #f5f5f5;
+}
 
 .reviews{
     padding: 10px;
