@@ -48,71 +48,7 @@
     <title>Composer MLK {% block extra_title %}{% endblock %}</title>
   </head>
   <body>
-    <header class="container-fluid fixed-top">
-        <div id="topnav" class="row   pt-lg-2 d-lg-flex ">
-            <div class="col-xs-12 col-sm-3 my-auto py-1 py-lg-0 text-center text-lg-left pc">
-                <a href="{% url 'home' %}" class="nav-link main-logo-link">
-                    <h2 class="logo-font text-white my-0"><strong>Composer</strong> MLK</h2>
-                </a>
-            </div>
-            <div class="col-xs-12 col-sm-6">
-                <nav class="navbar navbar-expand-lg navbar-dark w-100">
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    {% include 'includes/mobile-top-header.html' %}
-                    {% include 'includes/main-nav.html' %}
-                </nav>
-            </div>
-            <div class="col-xs-12 col-sm-3 my-auto py-1 py-lg-0 pc">
-                <ul class="list-inline list-unstyled text-center text-lg-right my-0">
-                   
-                         {% if request.user.is_authenticated %}
-                                {% if request.user.is_superuser %}
-                                 <li class="list-inline-item dropdown account">
-                                      <a href="{% url 'add_product' %}" class="dropdown-item">Product Management</a>
-                                 </li>
-                                   
-                                {% endif %}
-                                 <li class="list-inline-item dropdown account">
-                                    <a href="{% url 'profile' %}" class="dropdown-item">My Profile
-                                        <div class="text-center">
-                                         <div><i class="fas fa-house-user" aria-hidden="true"></i></div>
-                                        </div>
-                                    </a>
-                                </li>
-                                <li class="list-inline-item dropdown account">
-                                <a href="{% url 'account_logout' %}" class=" nav-link">Logout</a>
-                                </li>
-                            {% else %}
-                             <li class="list-inline-item dropdown account">
-                                  <a href="{% url 'account_signup' %}" class=" nav-link">Register</a>
-                             </li>
-                            <li class="list-inline-item dropdown account">
-                                <a href="{% url 'account_login' %}" class=" nav-link">Login</a>
-                            </li>
-                            {% endif %}
-                                      
-                            <li class="list-inline-item cart">
-                                <a class="{% if grand_total %}text-info font-weight-bold {% endif %}" href="{% url 'view_bag' %}">
-                                    <div class="text-center">
-                                        <div><i class="fas fa-shopping-bag"></i></div>
-                                        <p class="my-0">
-                                            {% if grand_total %}
-                                                ${{ grand_total|floatformat:2 }}
-                                            {% else %}
-                                                $0.00
-                                            {% endif %}
-                                        </p>
-                                    </div>
-                                </a>
-                            </li>
-                </ul>
-            </div>
-        </div>
-   
-
-    </header>
+   {% include 'includes/header.html' %}
 
     {% if messages %}
         <div class="message-container">
@@ -131,12 +67,13 @@
             {% endfor %}
         </div>
     {% endif %}
-
-    {% block page_header %}
-    {% endblock %}
-
+    <div class="main-content">
+        {% block page_header %}
+        {% endblock %}
+    </div>
     {% block content %}
     {% endblock %}
+    
     {% block postloadjs %}
     <script type="text/javascript">
         $('.toast').toast('show');
@@ -144,15 +81,8 @@
     {% endblock %}
  
     
-<div class="d-flex flex-column min-vh-100">
-    <nav>
-    </nav>
-    <main class="flex-fill">
-        MLK 2021
-    </main>
-    <footer>
+   <footer> &copy;MLK 2021
     </footer>
-</div>
 
 
   </body>
