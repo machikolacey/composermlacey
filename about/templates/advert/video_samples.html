@@ -22,11 +22,11 @@
     {% for video in sampleVideos %}
     <div class="video-card">
         <div class="row">
-            <div class="col-sm-7">
+            <div class="col-md-6 col-sm-12">
                 <h3>{{ video.title }}</h3>
                 <p>{{ video.details | linebreaks }}</p>
             </div>
-            <div class="col-sm-5">
+            <div class="col-md-6 col-sm-12">
                 <div class="videoWrapper">
                     <iframe  src="{{  video.embedvideo }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div> 
