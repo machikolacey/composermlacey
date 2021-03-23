@@ -3,6 +3,7 @@
 
 <img src="https://res.cloudinary.com/machikolacey/image/upload/v1616516754/milestone4/responsive-image-composermlk_da7tfz.png" style="width:100%;"/>
 
+[Deployed website is found here](http://composermlacey.herokuapp.com/)
 
 <b>Machiko Lacey-Kimura</b>, A.K.A MLK is a composer, pianist. Coming from Classical piano background, she started writing songs in 2016, when she dived into Jazz and rock music in her play.
 
@@ -456,5 +457,5 @@ https://github.com/machikolacey/composermlacey/blob/master/wireframes/wireframe.
 </div>
 
 
-# Deployed app is found here
-http://composermlacey.herokuapp.com/
+
+
