@@ -58,12 +58,6 @@
     {% block content %}
     {% endblock %}
       
- 
-    {% block postloadjs %}
-  
-    {% endblock %}
- 
-  
     {% if request.user.is_authenticated %}
         {% if request.user.is_superuser %}
         <div class="add-product"> 
@@ -72,8 +66,7 @@
         </div>
         {% endif %}
     {% endif %}
-  {% block corejs %}
-
+     {% block corejs %}
         <script src="https://kit.fontawesome.com/e9c73d7092.js" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
@@ -81,8 +74,9 @@
         <script src="{% static 'js/slick.min.js' %}"></script>
         <script src="{% static 'js/custom.js' %}"></script>
         <!-- Stripe -->
-        <script src="https://js.stripe.com/v3/"></script>
-        
+        <script src="https://js.stripe.com/v3/"></script>    
+    {% endblock %}
+    {% block postloadjs %}
     {% endblock %}
   </body>
 </html>

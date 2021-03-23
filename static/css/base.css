@@ -32,6 +32,11 @@ dl, ol, ul {
     padding: 0;
 }
 
+
+.bg-warning {
+    background-color: #f5cd58!important;
+}
+
 .list-inline-item.cart a{
     color:#f26a8d;
 }
