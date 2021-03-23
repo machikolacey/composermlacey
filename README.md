@@ -203,6 +203,73 @@ As tablet layout is similar to mobile phone layout, tablet is omitted on this wi
 https://github.com/machikolacey/composermlacey/blob/master/wireframes/wireframe.pdf
 
 
+
+
+# Technologies Used
+
+### Front-end  <!-- omit in toc -->
+###### Languages
+-  [HTML](https://en.wikipedia.org/wiki/HTML)
+-  [CSS](https://en.wikipedia.org/wiki/CSS)
+
+###### Tools & Frameworks
+- [Bootstrap](https://getbootstrap.com/docs/4.0/getting-started/introduction/)
+- [JavaScript](https://www.javascript.com/)
+- [jQuery](https://jquery.com/)
+- [Font Awesome 6](https://fontawesome.com/)
+- [Google Fonts](https://fonts.google.com/)
+- [Slick Slider](https://kenwheeler.github.io/slick/)
+
+### Back-end Technologies <!-- omit in toc -->
+###### Languages
+- [Python](https://www.python.org/)
+- [Javascript](https://www.javascript.com/)
+
+###### Tools & Frameworks
+-  [Django-allauth](https://django-allauth.readthedocs.io/)
+-  [Django-storages](https://django-storages.readthedocs.io/en/latest/)
+- [Stripe](https://stripe.com/)
+- [AWS](https://aws.amazon.com/)
+- [SQLite](https://stripe.com/)
+- [Postgresql](https://www.tableau.com/)
+- [Django Cleanup](https://pypi.org/project/django-cleanup/)
+- [Django Bootstrap](https://pypi.org/project/django-bootstrap4/)
+
+###### Python & Django  <!-- omit in toc -->
+- [Django](https://www.djangoproject.com/)
+- [Pillow](https://pillow.readthedocs.io/en/stable/) 
+- [boto3](https://django-storages.readthedocs.io/en/latest/backends/amazon-S3.html) 
+- [botocore](https://pypi.org/project/botocore/)
+- [django-allauth](https://django-allauth.readthedocs.io/en/latest/installation.html)
+- [django-countries](https://django-allauth.readthedocs.io/en/latest/installation.html)
+- [django-phonenumber-field](https://pypi.org/project/django-phonenumber-field/0.2a1/)
+- [django-crispy-forms](https://django-crispy-forms.readthedocs.io/en/latest/install.html)
+- [django-filte](https://django-filter.readthedocs.io/en/stable/)
+- [asgiref](https://pypi.org/project/asgiref/1.1.1/)
+- [django-environ](https://django-environ.readthedocs.io/en/latest/)
+- [django-storages](https://django-storages.readthedocs.io/en/latest/)
+- [dj-database-url](https://pypi.org/project/dj-database-url/)
+- [unicorn](https://pypi.org/project/django-unicorn/#:~:text=Unicorn%20is%20a%20reactive%20component,or%20re%2Dbuilding%20your%20website)
+- [gunicorn](https://pypi.org/project/gunicorn/)
+- [jmespath](https://pypi.org/project/jmespath/)
+- [oauthlib](https://pypi.org/project/oauthlib/)
+- [psycopg2](https://pypi.org/project/psycopg2/)
+- [psycopg2-binary](https://pypi.org/project/psycopg2-binary/)
+- [python3-openid](https://pypi.org/project/python3-openid/)
+- [pytz](https://pypi.org/project/pytz/)
+- [requests-oauthlib](https://pypi.org/project/requests-oauthlib/)
+- [s3transfer](https://pypi.org/project/s3transfer/)
+- [sqlparse](https://pypi.org/project/sqlparse/)
+
+### Other technologies <!-- omit in toc -->
+
+- [Visual Studio Code](https://code.visualstudio.com/)
+- [GitHub](https://github.com/)
+- [Heroku](https://heroku.com/)
+- [Balsamiq](https://balsamiq.com/)
+- [Cloudinary](https://cloudinary.com/)
+
+
 ## Information Architecture
 
 ### Models used in home app <!-- omit in toc -->
@@ -559,42 +626,6 @@ python manage.py createsuperuser
 14. On the top-right corner on the app page, find "Open App" button to open your app.
 
 15. Go to https://your-app-name-herokuapp.com/admin to find out your superuser login is working.
-
-## Technologies Used
-
-### Front-end  <!-- omit in toc -->
-###### Languages
--  [HTML](https://en.wikipedia.org/wiki/HTML)
--  [CSS](https://en.wikipedia.org/wiki/CSS)
-
-###### Tools & Frameworks
-- [Bootstrap](https://getbootstrap.com/docs/4.0/getting-started/introduction/)
-- [JavaScript](https://www.javascript.com/)
-- [jQuery](https://jquery.com/)
-- [Font Awesome 6](https://fontawesome.com/)
-- [Google Fonts](https://fonts.google.com/)
-
-### Back-end Technologies <!-- omit in toc -->
-###### Languages
-- [Python](https://www.python.org/)
-
-###### Tools & Frameworks
--  [Django-allauth](https://django-allauth.readthedocs.io/)
--  [Django-storages](https://django-storages.readthedocs.io/en/latest/)
-- [Stripe](https://stripe.com/)
-- [AWS](https://aws.amazon.com/)
-- [SQLite](https://stripe.com/)
-- [Postgresql](https://www.tableau.com/)
-- [Django Cleanup](https://pypi.org/project/django-cleanup/)
-- [Django Bootstrap](https://pypi.org/project/django-bootstrap4/)
-
-### Other technologies <!-- omit in toc -->
-
-- [Visual Studio Code](https://code.visualstudio.com/)
-- [GitHub](https://github.com/)
-- [Heroku](https://heroku.com/)
-- [Balsamiq](https://balsamiq.com/)
-- [Cloudinary](https://cloudinary.com/)
 
 
 <div align="right">
