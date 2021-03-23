@@ -421,6 +421,19 @@ https://github.com/machikolacey/composermlacey/blob/master/wireframes/wireframe.
 This project was developed on Github, using Gitpod as IDE. It has only master branch. This is pushed and deployed onto Heroku.
 
 
+## Requirements
+
+ - [python 3](https://www.python.org/)
+ - [PIP](https://pip.pypa.io/en/stable/installing/)
+ - [Git](https://github.com/)
+ - [AWS-S3](https://docs.aws.amazon.com/) 
+ - [S3 Bucket](https://docs.aws.amazon.com/) 
+ - [Stripe](https://stripe.com/) 
+
+
+
+
+
 ## To run this project on your local repository
 
 This project will be deployed following these steps:
