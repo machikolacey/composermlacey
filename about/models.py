@@ -18,7 +18,7 @@ class SampleVideo(models.Model):
     title = models.CharField(max_length=254)
     subtitle = models.CharField(max_length=254)
     youtube_link = models.CharField(max_length=254, null=True, blank=True)
-    embed = EmbedVideoField(null=True, blank=True)
+    recorded = models.CharField(max_length=254, null=True, blank=True)
     details = models.TextField(null=True, blank=True)
 
 

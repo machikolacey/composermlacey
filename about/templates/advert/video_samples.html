@@ -22,7 +22,12 @@
                  {% if video.subtitle %}
                     <h4>{{ video.subtitle }}</h4>
                  {% endif %}
-                <p>{{ video.details | linebreaks }}</p>
+                
+                 <p>{{ video.details | linebreaks }}</p>
+
+                 {% if video.recorded %}
+                  <p class="recorded_at">Recorded at: {{ video.recorded }} </p>
+                 {% endif %}
             </div>
             <div class="col-md-6 col-sm-12">
                 <div class="videoWrapper">
