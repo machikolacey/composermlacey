@@ -372,3 +372,6 @@ https://github.com/machikolacey/composermlacey/blob/master/wireframes/wireframe.
     <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
 
+
+# Deployed app is found here
+http://composermlacey.herokuapp.com/
