@@ -203,7 +203,14 @@ As tablet layout is similar to mobile phone layout, tablet is omitted on this wi
 https://github.com/machikolacey/composermlacey/blob/master/wireframes/wireframe.pdf
 
 
+# Features
 
+- This website has a feature to add page content, so an admin person can easily add a content from admin area, with 2 images.
+<img src="https://res.cloudinary.com/machikolacey/image/upload/v1616542982/milestone4/feature-1_pmgn2m.png" />
+
+- An admin can also add extra images, which makes the image area to an image gallery automatically.
+<img src="https://res.cloudinary.com/machikolacey/image/upload/v1616543113/milestone4/feature-2_u9tawg.png" />
+<img src="https://res.cloudinary.com/machikolacey/image/upload/v1616543121/milestone4/feature-3_ynvvdm.png" />
 
 # Technologies Used
 
