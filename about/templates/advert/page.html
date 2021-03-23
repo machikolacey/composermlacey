@@ -23,7 +23,7 @@
     <div class="col-sm-6">
 
 
-        <section id="photo">
+        <section id="photo" class="{% if images.length > 0 %} 2columns {% endif %} ">
             {% if page.primaryImage %}
                 <img class="card-img-top img-fluid" src="{{ MEDIA_URL }}{{page.primaryImage}}" alt="{{ page.title }}">
             {% else %}
@@ -31,8 +31,6 @@
             {% endif %}
             {% if page.secondaryImage %}
                 <img class="card-img-top img-fluid" src="{{ MEDIA_URL }}{{page.secondaryImage}}" alt="{{ page.title }}">
-            {% else %}
-                <img class="card-img-top img-fluid" src="{{ MEDIA_URL }}noimage.png" alt="{{ page.title }}">
             {% endif %}
             {% for image in images %}
                 <img class="card-img-top img-fluid" src="{{ MEDIA_URL }}{{ image.image }}" alt="{{ image.caption }}">
