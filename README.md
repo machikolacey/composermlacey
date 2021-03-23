@@ -395,6 +395,21 @@ https://github.com/machikolacey/composermlacey/blob/master/wireframes/wireframe.
 | I would like to be able to update the account details	  | so I can update my address, phone number etc in case I change them   |  result |
 
 
+
+### Site Owner
+| User Story    | Expected Outcome  | Actual Outcome | 
+|:------------- |:---------------|:--------------------|
+| I would like to be able to add a product easily | so I feel ease on adding product | result |
+| I would like to be able to edit a product easily	 | so I can update product details at ease | result |
+| I would like to be able to delete a product	 | so it won't show up on the website. | result |
+| I would like to be able to add album songs | so they will be displayed on the album product page | result |
+| I would like to be able to add event venue, date, time and duration | so they will be displayed on the event product page | result |
+| I would like to be able to modify event details	 | so I can update event details | result |
+| I would like to be able to approve or dissaprove user reviews | so I can manage customer reviews effectively | result |
+| I would like to be able to update artist information pages | so I can flexibly refresh the page information | result |
+
+
+
 ## Technologies Used
 
 ### Front-end  <!-- omit in toc -->
