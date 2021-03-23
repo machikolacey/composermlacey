@@ -9,6 +9,12 @@ def index(request, permalink):
 
     sampleVideos = SampleVideo.objects.all()
 
+
+    for index, video in enumerate(sampleVideos, start=0):
+        embedvideo = video.youtube_link.replace("watch?v=", "embed/")
+        sampleVideos[index].embedvideo = embedvideo
+
+
     try:
         page = Page.objects.get(permalink=permalink)
     except ObjectDoesNotExist:
