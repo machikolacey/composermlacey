@@ -55,7 +55,7 @@ header a{
 
 
 .header-container {
-    padding-top: 76px;
+    padding-top: 62px;
 }
 textarea{
     width:100%;
@@ -397,11 +397,13 @@ input[name='q']::placeholder {
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
+/*
 @media (min-width: 1200px) {
   .container {
     max-width: 80%;
   }
 }
+*/
 
 /* Allauth form formatting */
 
