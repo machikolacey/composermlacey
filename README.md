@@ -404,11 +404,11 @@ https://github.com/machikolacey/composermlacey/blob/master/wireframes/wireframe.
 
 ### Other technologies <!-- omit in toc -->
 
-- Visual Studio Code
-- GitHub
-- Heroku
-- Balsamiq
-- Cloudinary
+- [Visual Studio Code](https://code.visualstudio.com/)
+- [GitHub] (https://github.com/)
+- [Heroku](https://heroku.com/)
+- [Balsamiq](https://balsamiq.com/)
+- [Cloudinary](https://cloudinary.com/)
 
 
 <div align="right">
