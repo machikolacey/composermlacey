@@ -81,7 +81,7 @@
                            <h3>Songs</h3>
                             <ul class="song-titles">
                             {% for song in album.albumsongs.all %}
-                               <li>{{ song.song_title }}</li>
+                               <li><i class="fas fa-record-vinyl"></i>{{ song.song_title }}</li>
                             {% endfor %}
                             </ul>
                         {% endif %}

@@ -9,21 +9,19 @@
     </div>
 {% endblock %}
 
-
-
 {% block content %}
 <div class="container">
 <h1>{{page.title}}</h1>
 
 <div class="page-content">
-
-
-
     {% for video in sampleVideos %}
     <div class="video-card">
         <div class="row">
             <div class="col-md-6 col-sm-12">
                 <h3>{{ video.title }}</h3>
+                 {% if video.subtitle %}
+                    <h4>{{ video.subtitle }}</h4>
+                 {% endif %}
                 <p>{{ video.details | linebreaks }}</p>
             </div>
             <div class="col-md-6 col-sm-12">
@@ -33,17 +31,7 @@
             </div>
         </div>
     </div>  
-
-
-
 {% endfor %}
-
-
-
-
 </div>
-
-
 </div>
-
 {% endblock %}
