@@ -431,47 +431,90 @@ This project was developed on Github, using Gitpod as IDE. It has only master br
  - [Stripe](https://stripe.com/) 
 
 
-
-
-
 ## To run this project on your local repository
 
 This project will be deployed following these steps:
 
-1.  Add your own repository on your Github account
-2.  Click the green 'Gitpod' button on top-right corner of this repo
+- Add your own repository on your Github account
+- Click the green 'Gitpod' button on top-right corner of this repo
     (If there isn't a button on your browser, install 'Gitpod' extension on your Chrome browser)
-3.  Gitpod launches
-4.  Run the following command (Replace the 'USERNAME' and 'REPO' to your username and repo name):
-```
 
+- Gitpod launches
+- Run the following command (Replace the 'USERNAME' and 'REPO' to your username and repo name):
+
+
+ ```bash
 git remote set-url origin https://github.com/USERNAME/REPO.git
 
 ```
-5. Run this command below to install all the modules on requirements.txt file:
+- Run this command below to install all the modules on requirements.txt file:
 
-```
-
+ ```bash
 pip3 install -r requirements.txt
 
 ```
-6. Make sure to have a test account on Stripe
-7. Create these environment variables:
+- Create these environment variables:
 
 | Variables     | Value |
 |:------------- |:-------------|
-| DEVELOPMENT | Your value |
-| SECRET_KEY |  Your value |
-| DATABASE_URL |  Your value |
-| STRIPE_PUBLIC_KEY |  Your value |
-| EMAIL_HOST_USER |  Your value |
-| SECRET_KEY |  Your value |
-| STRIPE_WH_SECRET |  Your value |
+| STRIPE_PUBLIC_KEY |  your_value |
+| EMAIL_HOST_USER |  your_value |
+| SECRET_KEY |  your_value |
+| STRIPE_WH_SECRET |  your_value |
+
+
+Replace <your_value> with the values from your own created accounts:
+    - [STRIPE_PUBLIC_KEY](https://dashboard.stripe.com/test/apikeys) 
+    - [STRIPE_SECRET_KEY](https://dashboard.stripe.com/test/apikeys)
+    - [SECRET_KEY](https://djecrety.ir/) 
+
+
+On your terminal, run this code below to test migration
+
+```bash
+
+python3 manage.py migrate --plan
+
+```
+
+If there was any errors, find out solutions on [Python's documentation](https://docs.djangoproject.com/en/3.1/ref/django-admin/)
+If there was no issues found, run this code below:
+
+
+```bash
+
+python3 manage.py migrate 
+
+```
+If there was any errors, find out solutions on [Python's documentation](https://docs.djangoproject.com/en/3.1/ref/django-admin/)
+
+If there was no issues found, run this code below to create a superuser (Your admin account). 
+
+```bash
+
+python manage.py createsuperuser
+
+```
+
+Run this code to run server on local:
+
+```bash
+python manage.py runserver
+ ```
+If no errors, the terminal will provide a message telling that the development server is running
+ at a provided URL mostly:  (http://127.0.0.1:8000/admin)
+
+
+
 
 
 ## Remote Deployment (Run the project on Heroku.com)
 
 If you want to add it to your Heroku account, follow the instructions below:
+
+
+
+
 
 
 1. Add an app for this project
