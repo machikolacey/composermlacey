@@ -18,27 +18,18 @@
                 <ul class="list-inline list-unstyled text-center text-lg-right my-0">
                    
                          {% if request.user.is_authenticated %}
-                                {% if request.user.is_superuser %}
-                                 <li class="list-inline-item dropdown account">
-                                      <a href="{% url 'add_product' %}" class="dropdown-item">Product Management</a>
-                                 </li>
-                                   
-                                {% endif %}
-                                 <li class="list-inline-item dropdown account">
-                                    <a href="{% url 'profile' %}" class="dropdown-item">My Profile
-                                        <div class="text-center">
-                                         <div><i class="fas fa-house-user" aria-hidden="true"></i></div>
-                                        </div>
-                                    </a>
+                 
+                                 <li class="list-inline-item  account">
+                                    <a href="{% url 'profile' %}" class="nav-link">Profile</a>
                                 </li>
-                                <li class="list-inline-item dropdown account">
+                                <li class="list-inline-item  account">
                                 <a href="{% url 'account_logout' %}" class=" nav-link">Logout</a>
                                 </li>
                             {% else %}
-                             <li class="list-inline-item dropdown account">
+                             <li class="list-inline-item  account">
                                   <a href="{% url 'account_signup' %}" class=" nav-link">Register</a>
                              </li>
-                            <li class="list-inline-item dropdown account">
+                            <li class="list-inline-item  account">
                                 <a href="{% url 'account_login' %}" class=" nav-link">Login</a>
                             </li>
                             {% endif %}
@@ -60,6 +51,5 @@
                 </ul>
             </div>
         </div>
-   
 
     </header>

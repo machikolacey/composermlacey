@@ -73,17 +73,23 @@
     </div>
     {% block content %}
     {% endblock %}
-    
+      
+ 
     {% block postloadjs %}
     <script type="text/javascript">
         $('.toast').toast('show');
     </script>
     {% endblock %}
  
-    
-   <footer> &copy;MLK 2021
-    </footer>
-
+  
+    {% if request.user.is_authenticated %}
+        {% if request.user.is_superuser %}
+        <div class="add-product"> 
+            <a href="{% url 'add_product' %}" class="nav-link"><i class="fas fa-plus-circle fa-3px"></i>
+            Add a product</a>
+        </div>
+        {% endif %}
+    {% endif %}
 
   </body>
 </html>
