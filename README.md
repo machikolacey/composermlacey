@@ -482,13 +482,23 @@ https://github.com/machikolacey/composermlacey/blob/master/wireframes/wireframe.
 
 ## Issues mentioned by code reviews
 
+| Issue    | How I fixed it  |
+|:------------- |:---------------|
+|Possibly need extra time delay switching between the 2 hero images ||
+|Need different images for different albums/ events||
+|Title needs to be consistent - '2021 summer concert' to be '2021 Summer Concert'||
+|each of the sub menu options under ABOUT I get a blank screen with "Page Template" on the way to displaying the required page||
+
 
 ## Validators
+This was ran through these validators.
 
--   CSS Validation Service
--   Markup Validation Service
--   PEP8 Online Checker
--   JSHint, A Static Code Analysis Tool for JavaScript
+<ul>
+<li><a href="https://jigsaw.w3.org/css-validator/" target="_blank">CSS Validation Service</a></li>
+<li><a href="https://validator.w3.org/" target="_blank">Markup Validation Service</a></li>
+<li><a href="http://pep8online.com/" target="_blank">PEP8 Online Checker</a></li>
+<li><a href="http://jshint.com/" target="_blank">JSHint, A Static Code Analysis Tool for JavaScript</a></li>
+</ul>
 
 # Deployment
 
