@@ -206,11 +206,24 @@ https://github.com/machikolacey/composermlacey/blob/master/wireframes/wireframe.
 
 | Key                    | Type       | Validation                                |
 | ---------------------- | ---------- | ------------------------------------------|
-| link_url               | CharField  | max_length=1024, null=True, blank=True    |
-| banner                 | CharField  | null=True, blank=True                     |   
-| banner_tablet_size     |  CharFIeld | null=True, blank=True                     |
-| banner_mobile_size     |  CharFIeld | null=True, blank=True                     |
-| name                   | URLField   | null=True, blank=True                     |
+| link_url               | URLField  | max_length=1024, null=True, blank=True    |
+| banner                 | ImageField  | null=True, blank=True                     |   
+| banner_tablet_size     |  ImageField | null=True, blank=True                     |
+| banner_mobile_size     |  ImageField | null=True, blank=True                     |
+| name                   | TextField   | null=True, blank=True                     |
+
+
+##### homepageVideo <!-- omit in toc -->
+
+| Key                    | Type       | Validation                                |
+| ---------------------- | ---------- | ------------------------------------------|
+| title               | CharField  | max_length=1024, null=True, blank=True    |
+| subtitle                 | CharField  | null=True, blank=True                     |   
+| youtube_link     |  CharField | max_length=254, null=True, blank=True                  |
+| details                   | TextField   | null=True, blank=True                     |
+
+
+
 
 ### Models used in products app  <!-- omit in toc -->
 
@@ -274,6 +287,36 @@ https://github.com/machikolacey/composermlacey/blob/master/wireframes/wireframe.
 | album      | ForeignKey : Album |  on_delete=models.CASCADE, related_name='albumsongs' |
 | song_title     | TextField | max_length=250, null=True, blank=True  |
 
+
+### Models used in about app <!-- omit in toc -->
+
+##### Page <!-- omit in toc -->
+
+| Key                    | Type       | Validation                                |
+| ---------------------- | ---------- | ------------------------------------------|
+| permalink               | CharField  | max_length=254  |
+| title                   | CharField  | max_length=254                    |   
+| content                 |  TextField | null=True, blank=True                   |
+| primaryImage            |  ImageField | null=True, blank=True                     |
+| secondaryImage          | ImageField   | null=True, blank=True                     |
+
+
+##### SampleVideo <!-- omit in toc -->
+
+| Key                    | Type       | Validation                                |
+| ---------------------- | ---------- | ------------------------------------------|
+| title               | CharField  | 'Page', null=True, blank=True, on_delete=models.SET_NUL  |
+| subtitle                   | CharField  | null=True, blank=True                   |   
+| youtube_link                 |  CharField | max_length=254, null=True                 |
+| details                 |  TextField | max_length=254, null=True                 |
+
+##### Images <!-- omit in toc -->
+
+| Key                    | Type       | Validation                                |
+| ---------------------- | ---------- | ------------------------------------------|
+| page               | ForeignKey  | 'Page', null=True, blank=True, on_delete=models.SET_NUL  |
+| image                   | ImageField  | null=True, blank=True                   |   
+| caption                 |  CharField | max_length=254, null=True                 |
 
 ###  Models used in checkout app  <!-- omit in toc -->
 
