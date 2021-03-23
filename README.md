@@ -1,6 +1,10 @@
-# Composer Machiko Lacey-Kimura website
+# Composer MLK website
 
-<b>Machiko Lacey-Kimura</b>, A.K.A Kim Lacey is a composer, pianist. Coming from Classical piano background, she started writing songs in 2016, when she dived into Jazz and rock music in her play.
+
+<img src="https://res.cloudinary.com/machikolacey/image/upload/v1616516754/milestone4/responsive-image-composermlk_da7tfz.png" style="width:100%;"/>
+
+
+<b>Machiko Lacey-Kimura</b>, A.K.A MLK is a composer, pianist. Coming from Classical piano background, she started writing songs in 2016, when she dived into Jazz and rock music in her play.
 
 Kim started writing her Neo-classical song when she was practicing improvisation on second and ninth degree in A minor. She named her first song <b>“A29”</b>. However, she realised that she uses a drive way <b>“A27”</b> which is more close to her home, and re-named the song to <b>“A27”</b>.
 She wants to express the feelings of boredom, irritation and impatience most of us feel daily in our daily lives.
