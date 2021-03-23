@@ -454,6 +454,36 @@ pip3 install -r requirements.txt
 
 ```
 
+## Remote Deployment (Run the project on Heroku.com)
+
+If you want to add it to your Heroku account, follow the instructions below:
+
+
+1. Add an app for this project
+2. Link your app to your Github repository from "Deploy" tab on your Heroku app
+3. Create a database using Postgress database
+4. Create an AWS S3 bucket
+5. On the 'Settings' tab on your app, add Config variables:
+
+| Config Vars      |
+|:------------- |
+| AWS_ACCESS_KEY_ID | 
+| AWS_SECRET_ACCESS_KEY | 
+| DATABASE_URL | 
+| EMAIL_HOST_PASS | 
+| EMAIL_HOST_USER | 
+| SECRET_KEY | 
+| STRIPE_PUBLIC_KEY | 
+| STRIPE_SECRET_KEY | 
+| STRIPE_WH_SECRES | 
+| USE_AWS | 
+
+6. On Gitpod, add and commit your changes and 'git push' - this will push local changes to your Heroku app, and deploy it.
+
+
+
+
+
 
 ## Technologies Used
 
