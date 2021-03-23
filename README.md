@@ -379,29 +379,19 @@ https://github.com/machikolacey/composermlacey/blob/master/wireframes/wireframe.
 |:------------- |:---------------|:--------------------|
 | I would like to find out up-coming events and recent albums on top of the homepage | so I can find out up-coming events and recent albums at a glance   | result |
 | I would like to navigate to the destination page smoothly | so I can find the information I want easily  |   result              |
-| I would like to find schedule easily | so I can find event dates in no time   | Straight after account creation, I was navigated to the profile page, and found 'edit' button.| result|
+| I would like to find schedule easily | so I can find event dates in no time   |  result|
 | I would like to find out what is the artist's motivation on her composition | so I can see if her music suits my interest     |  result |
-| I would like to find out about genre of the artist's songs  | so I can see if her music suits my interest
-   |  result |
-| I would like to listen to samples of her songs	  | so I can see if the music feeds my interest
-   |  result |
-| I would like to see how album jackets look like	  | so I can find it the album interests me
-   |  result |
-| I would like to find out venue, date, time and duration of the event  | so I can find out if I can attend it.
-   |  result |
-| 	I would like to be able to ask question through a contact form  | so I can ask questions.
-   |  result |
-| I would like to purchase the artist's products and event tickets  | so I can enjoy her music.
-   |  result |
-| I would like to write a review on my purchased products  | so I can share my thoughts on my purchased products.   |  aa |
-| 	I would like to be able to purchase the products securely  | so I feel safe through payment section.
-   |  result |
-| I would like to be able to register on this website  | so I can purchase easily in the future.
-   |  result |
-| I would like to be able to reset my password	  | so I can login again in case I forget my password
-   |  result |
-| I would like to be able to see my order history	  | so I can see what I purchased
-   |  result |
+| I would like to find out about genre of the artist's songs  | so I can see if her music suits my interest |  result |
+| I would like to listen to samples of her songs	  | so I can see if the music feeds my interest |  result |
+| I would like to see how album jackets look like	  | so I can find it the album interests me |  result |
+| I would like to find out venue, date, time and duration of the event  | so I can find out if I can attend it. |  result |
+| 	I would like to be able to ask question through a contact form  | so I can ask questions. |  result |
+| I would like to purchase the artist's products and event tickets  | so I can enjoy her music. |  result |
+| I would like to write a review on my purchased products  | so I can share my thoughts on my purchased products.   |  result |
+| 	I would like to be able to purchase the products securely  | so I feel safe through payment section.|  result |
+| I would like to be able to register on this website  | so I can purchase easily in the future. |  result |
+| I would like to be able to reset my password	  | so I can login again in case I forget my password|  result |
+| I would like to be able to see my order history	  | so I can see what I purchased |  result |
 | I would like to be able to update the account details	  | so I can update my address, phone number etc in case I change them   |  result |
 
 
