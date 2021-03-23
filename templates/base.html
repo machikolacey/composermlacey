@@ -24,23 +24,7 @@
     {% block extra_css %}
     {% endblock %}
 
-    {% block corejs %}
-
-        <script src="https://kit.fontawesome.com/e9c73d7092.js" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
-        <script src="{% static 'js/slick.min.js' %}"></script>
-      
-        <script src="https://js.stripe.com/v3/"></script>
-
-
-
-       
-        <!-- Stripe -->
-        <script src="https://js.stripe.com/v3/"></script>
-        
-    {% endblock %}
+  
 
     {% block extra_js %}
     {% endblock %}
@@ -76,9 +60,7 @@
       
  
     {% block postloadjs %}
-    <script type="text/javascript">
-        $('.toast').toast('show');
-    </script>
+  
     {% endblock %}
  
   
@@ -90,6 +72,17 @@
         </div>
         {% endif %}
     {% endif %}
+  {% block corejs %}
 
+        <script src="https://kit.fontawesome.com/e9c73d7092.js" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+        <script src="{% static 'js/slick.min.js' %}"></script>
+        <script src="{% static 'js/custom.js' %}"></script>
+        <!-- Stripe -->
+        <script src="https://js.stripe.com/v3/"></script>
+        
+    {% endblock %}
   </body>
 </html>
