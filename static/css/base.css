@@ -212,7 +212,7 @@ ul.song-titles li{
     width:100%;
 }
 
-#photo.2columns{
+.twocolumns{
       line-height:0;
       column-count:2;
       column-gap:0;

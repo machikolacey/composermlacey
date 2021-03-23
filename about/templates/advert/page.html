@@ -21,9 +21,7 @@
 <div class="row">
     <div class="col-sm-6">{{ page.content | linebreaks }}</div>
     <div class="col-sm-6">
-
-
-        <section id="photo" class="{% if images.length > 0 %} 2columns {% endif %} ">
+        <section id="photo" class="{% if images|length > 0 %} twocolumns {% endif %} ">
             {% if page.primaryImage %}
                 <img class="card-img-top img-fluid" src="{{ MEDIA_URL }}{{page.primaryImage}}" alt="{{ page.title }}">
             {% else %}
