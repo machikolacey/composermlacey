@@ -480,8 +480,15 @@ https://github.com/machikolacey/composermlacey/blob/master/wireframes/wireframe.
 | I would like to be able to approve or dissaprove user reviews | so I can manage customer reviews effectively | result |
 | I would like to be able to update artist information pages | so I can flexibly refresh the page information | result |
 
+## Issues mentioned by code reviews
 
 
+## Validators
+
+-   CSS Validation Service
+-   Markup Validation Service
+-   PEP8 Online Checker
+-   JSHint, A Static Code Analysis Tool for JavaScript
 
 # Deployment
 
@@ -627,11 +634,14 @@ python manage.py createsuperuser
 
 15. Go to https://your-app-name-herokuapp.com/admin to find out your superuser login is working.
 
+# Credits
 
-<div align="right">
-    <b><a href="#table-of-contents">↥ Back To Top</a></b>
-</div>
+## Contents
 
+Photos are downloaded from iStockphoto, using my account. I designed banner and uploaded to AWS S3 through Django admin.
+This project is using icons from FontAwesome.
+All texts are written by Machiko Lacey-Kimura.
 
+## media
 
-
+- The videos used in this website are taken from: https://www.youtube.com/
