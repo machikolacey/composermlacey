@@ -435,41 +435,37 @@ This project was developed on Github, using Gitpod as IDE. It has only master br
 
 This project will be deployed following these steps:
 
-- Add your own repository on your Github account
-- Click the green 'Gitpod' button on top-right corner of this repo
+1. Add your own repository on your Github account
+2. Click the green 'Gitpod' button on top-right corner of this repo
     (If there isn't a button on your browser, install 'Gitpod' extension on your Chrome browser)
 
-- Gitpod launches
-- Run the following command (Replace the 'USERNAME' and 'REPO' to your username and repo name):
+3. Gitpod launches
+4. Run the following command (Replace the 'USERNAME' and 'REPO' to your username and repo name):
 
 
  ```bash
 git remote set-url origin https://github.com/USERNAME/REPO.git
 
 ```
-- Run this command below to install all the modules on requirements.txt file:
+5. Run this command below to install all the modules on requirements.txt file:
 
  ```bash
 pip3 install -r requirements.txt
 
 ```
-- Create these environment variables:
+6. Create these environment variables:
 
 | Variables     | Value |
 |:------------- |:-------------|
-| STRIPE_PUBLIC_KEY |  your_value |
+| STRIPE_PUBLIC_KEY |  your_value |  *https://dashboard.stripe.com/test/apikeys
 | EMAIL_HOST_USER |  your_value |
-| SECRET_KEY |  your_value |
-| STRIPE_WH_SECRET |  your_value |
+| SECRET_KEY |  your_value |         *https://djecrety.ir
+| STRIPE_WH_SECRET |  your_value |   *https://dashboard.stripe.com/test/apikeys
 
 
-Replace <your_value> with the values from your own created accounts:
-    - [STRIPE_PUBLIC_KEY](https://dashboard.stripe.com/test/apikeys) 
-    - [STRIPE_SECRET_KEY](https://dashboard.stripe.com/test/apikeys)
-    - [SECRET_KEY](https://djecrety.ir/) 
+7. Replace your_value with your values
 
-
-On your terminal, run this code below to test migration
+8. On your terminal, run this code below to test migration
 
 ```bash
 
@@ -477,8 +473,8 @@ python3 manage.py migrate --plan
 
 ```
 
-If there was any errors, find out solutions on [Python's documentation](https://docs.djangoproject.com/en/3.1/ref/django-admin/)
-If there was no issues found, run this code below:
+9. If there was any errors, find out solutions on [Python's documentation](https://docs.djangoproject.com/en/3.1/ref/django-admin/)
+   If there was no issues found, run this code below:
 
 
 ```bash
@@ -486,9 +482,8 @@ If there was no issues found, run this code below:
 python3 manage.py migrate 
 
 ```
-If there was any errors, find out solutions on [Python's documentation](https://docs.djangoproject.com/en/3.1/ref/django-admin/)
-
-If there was no issues found, run this code below to create a superuser (Your admin account). 
+10. If there was any errors, find out solutions on [Python's documentation](https://docs.djangoproject.com/en/3.1/ref/django-admin/)
+    If there was no issues found, run this code below to create a superuser (Your admin account). 
 
 ```bash
 
@@ -496,52 +491,74 @@ python manage.py createsuperuser
 
 ```
 
-Run this code to run server on local:
+11. Run this code to run server on local:
 
 ```bash
 python manage.py runserver
  ```
-If no errors, the terminal will provide a message telling that the development server is running
- at a provided URL mostly:  (http://127.0.0.1:8000/admin)
+12. If no errors, the terminal will provide the link to the local server. Click on the link to open the website.
 
-
-
-
+13. Go to https://your-local-url.com/admin to find out your superuser login is working.
 
 ## Remote Deployment (Run the project on Heroku.com)
 
 If you want to add it to your Heroku account, follow the instructions below:
 
-
-
-
-
-
 1. Add an app for this project
-2. Link your app to your Github repository from "Deploy" tab on your Heroku app
-3. Create a database using Postgress database
-4. Create an AWS S3 bucket
-5. On the 'Settings' tab on your app, add Config variables:
+2. Create an AWS S3 bucket, create access group and attach access policy.
+3. Back to your Heroku app, the 'Settings' tab on your app, add Config variables:
 
-| Config Vars      |
-|:------------- |
-| AWS_ACCESS_KEY_ID | 
-| AWS_SECRET_ACCESS_KEY | 
-| DATABASE_URL | 
-| EMAIL_HOST_PASS | 
-| EMAIL_HOST_USER | 
-| SECRET_KEY | 
-| STRIPE_PUBLIC_KEY | 
-| STRIPE_SECRET_KEY | 
-| STRIPE_WH_SECRES | 
-| USE_AWS | 
+| Config Vars      | Value |
+|:------------- |:------------- |
+| AWS_ACCESS_KEY_ID | your_value | * https://console.aws.amazon.com
+| AWS_SECRET_ACCESS_KEY | your_value | * https://console.aws.amazon.com
+| DATABASE_URL | your_value | * Your Postgres database URL
+| EMAIL_HOST_PASS | your_value | 
+| EMAIL_HOST_USER | your_value | 
+| SECRET_KEY | your_value | *https://djecrety.ir
+| STRIPE_PUBLIC_KEY | your_value | *https://dashboard.stripe.com/test/apikeys
+| STRIPE_SECRET_KEY | your_value | *https://dashboard.stripe.com/test/apikeys
+| STRIPE_WH_SECRES | your_value |   *https://dashboard.stripe.com/test/apikeys
+| USE_AWS | your_value |    * https://console.aws.amazon.com
 
-6. On Gitpod, add and commit your changes and 'git push' - this will push local changes to your Heroku app, and deploy it.
+6. Replace your_value with your values
 
+7. Run this code below to migrate database:
 
+```bash
 
+python3 manage.py migrate 
 
+```
 
+8. If there was any errors, find out solutions on [Python's documentation](https://docs.djangoproject.com/en/3.1/ref/django-admin/)
+   If there was no issues found, run this code below to create a superuser (Your admin account). 
+
+```bash
+
+python manage.py createsuperuser
+
+```
+
+9. Go back to your Gitpod workspace, run this code below for the first deployment on Heroku:
+
+```bash
+    git init
+    git commit -m 'First commit for Heroku deployment'
+    git push -u origin
+``` 
+
+10.  On your Heroku app, click on the "Deploy" tab, in 'Deployment method' select GitHub.
+
+11. Find your Github repository and click on it to connect to your repo.
+
+12. In "Manual deploy" section, make sure your repo branch is chosen, click on "Deploy Branch".
+
+13. In "Automatic deploys" section, enable automatic deploy, if you choose to.
+
+14. On the top-right corner on the app page, find "Open App" button to open your app.
+
+15. Go to https://your-app-name-herokuapp.com/admin to find out your superuser login is working.
 
 ## Technologies Used
 
