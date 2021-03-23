@@ -415,6 +415,46 @@ https://github.com/machikolacey/composermlacey/blob/master/wireframes/wireframe.
 
 
 
+
+# Deployment
+
+This project was developed on Github, using Gitpod as IDE. It has only master branch. This is pushed and deployed onto Heroku.
+
+
+## To run this project on your local repository
+
+This project will be deployed following these steps:
+
+1.  Add your own repository on your Github account
+2.  Click the green 'Gitpod' button on top-right corner of this repo
+    (If there isn't a button on your browser, install 'Gitpod' extension on your Chrome browser)
+3.  Gitpod launches
+4.  Run the following command (Replace the 'USERNAME' and 'REPO' to your username and repo name):
+```
+
+git remote set-url origin https://github.com/USERNAME/REPO.git
+
+```
+5. Run this command below to install all the modules on requirements.txt file:
+
+```
+
+pip3 install -r requirements.txt
+
+```
+6. Make sure to have a test account on Stripe
+7. Create these environment variables:
+```
+   "DEVELOPMENT": true,
+   "SECRET_KEY": "your_secret_key",
+   "DATABASE_URL": "your_link_to_your_postgres_db",
+   "STRIPE_PUBLIC_KEY": "your_Stripe_PK",
+   "STRIPE_SECRET_KEY": "your_Stripe_SK",
+   "STRIPE_WH_SECRET": "your_Stripe_WH_secret"
+
+```
+
+
 ## Technologies Used
 
 ### Front-end  <!-- omit in toc -->
