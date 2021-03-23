@@ -209,8 +209,15 @@ https://github.com/machikolacey/composermlacey/blob/master/wireframes/wireframe.
 <img src="https://res.cloudinary.com/machikolacey/image/upload/v1616542982/milestone4/feature-1_pmgn2m.png" />
 
 - An admin can also add extra images, which makes the image area to an image gallery automatically.
-<img src="https://res.cloudinary.com/machikolacey/image/upload/v1616543113/milestone4/feature-2_u9tawg.png" />
-<img src="https://res.cloudinary.com/machikolacey/image/upload/v1616543121/milestone4/feature-3_ynvvdm.png" />
+
+
+| <img src="https://res.cloudinary.com/machikolacey/image/upload/v1616543113/milestone4/feature-2_u9tawg.png" 
+style=""/>| <img src="https://res.cloudinary.com/machikolacey/image/upload/v1616543121/milestone4/feature-3_ynvvdm.png" /> | 
+
+
+- A registered user can add their own review on product page.
+<img src="https://res.cloudinary.com/machikolacey/image/upload/v1616543550/milestone4/feature-4_l7pjnk.png" />
+
 
 # Technologies Used
 
