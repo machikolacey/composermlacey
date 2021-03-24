@@ -10,18 +10,12 @@
 {% endblock %}
 
 {% block content %}
-
-
-
     <div class="overlay"></div>
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
-             
             </div>
-
         </div>
-        
         <div class="row">
             <div class="col-12 col-md-4 col-lg-4">
                 <div class="image-container my-5">
@@ -142,36 +136,36 @@
         </div>
 
 
-{% if request.user.is_authenticated %}
+
 <div class="reviews">
-    <h2>Reviews</h2>
+    <h3><i class="fas fa-pencil-alt"></i>Reviews</h3>
     <div class="row">
         <div class="col-sm-12">
                 {% for review in reviews %}
              
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <h5 class="text-left">{{ review.user.username }}</h5>
-                                     <p>{{ review.comment }}</p>
+                <div class="row ">
+                    <div class="col-md-12">
+                        <div class="review">
+                            <h5 class="text-left">{{ review.user.username }}</h5>
+                            <p>{{ review.comment }}</p>
 
-                                    
-                                    {% if request.user == review.user %}
-                                    <ul>
-                                         <li class="d-inline"><a href="{% url 'edit_review' product.pk review.pk %}">Edit</a></li>
-                                         <li class="d-inline"><a href="{% url 'delete_review' product.pk review.pk %}">Delete</a></li>
-                                    </ul>
-                                    
-                                    {% endif %}
-                                </div>
-                                <div class="col-md-9">
-                                   
-                                </div>
-                            </div>
+                            
+                            {% if request.user == review.user %}
+                            <ul>
+                                <li class="d-inline"><a href="{% url 'edit_review' product.pk review.pk %}">Edit</a></li>
+                                <li class="d-inline"><a href="{% url 'delete_review' product.pk review.pk %}">Delete</a></li>
+                            </ul>
+                            
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
                    
                 {% endfor %}
         </div>
 
     </div>
+    {% if request.user.is_authenticated %}
     <div class="row row mt-5">
         <div class="col-sm-12">
             <h2>Write your review</h2>
@@ -182,8 +176,9 @@
             </form>
         </div>
     </div>
+    {% endif %}
 </div>
-{% endif %}
+
     </div>
 
 

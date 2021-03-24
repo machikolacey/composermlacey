@@ -24,6 +24,9 @@ h4{
 .table-responsive h4{
     color:#444;
 }
+.fas{
+    margin-right:10px;
+}
 
 a {
     color: #f26b8e;
@@ -180,6 +183,14 @@ footer {
 
 .reviews{
     padding: 10px;
+}
+.review{
+     border-bottom: 1px solid #f26a8d;
+    padding: 0 0 10px 0;
+}
+
+.review ul li {
+    font-size:80%;
 }
 
 ul.song-titles{
