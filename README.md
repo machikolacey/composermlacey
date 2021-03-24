@@ -205,15 +205,28 @@ https://github.com/machikolacey/composermlacey/blob/master/wireframes/wireframe.
 
 # Features
 
+## Page CMS
 - This website has a feature to add page content, so an admin person can easily add a content from admin area, with 2 images.
 <img src="https://res.cloudinary.com/machikolacey/image/upload/v1616542982/milestone4/feature-1_pmgn2m.png" />
 
+## Extra images - automatic photo gallery
 - An admin can also add extra images, which makes the image area to an image gallery automatically.
 
  <img src="https://res.cloudinary.com/machikolacey/image/upload/v1616543832/milestone4/feature-10_doemvi.png" />
 
+## Product review
 - A registered user can add their own review on product page.
 <img src="https://res.cloudinary.com/machikolacey/image/upload/v1616543550/milestone4/feature-4_l7pjnk.png" />
+
+## Homepage banner
+- An admin can add advert with a page link through admin.
+<img src="https://res.cloudinary.com/machikolacey/image/upload/v1616543996/milestone4/feature-5_gh6frg.png" />
+
+## Youtube videos 
+- An admin can add sample youtube link through admin, to display a video on 'Sample Videos' page, and also Home page.
+<img src="https://res.cloudinary.com/machikolacey/image/upload/v1616544117/milestone4/feature-7_krlmhl.png" />
+
+
 
 
 # Technologies Used
