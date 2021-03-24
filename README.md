@@ -523,6 +523,14 @@ This was ran through these validators.
 <li><a href="http://jshint.com/" target="_blank">JSHint, A Static Code Analysis Tool for JavaScript</a></li>
 </ul>
 
+### Result - W3C Validations
+
+| Issue    | How I fixed it  |
+|:------------- |:---------------|
+|Error: Element li not allowed as child of element nav in this context. (Suppressing further errors from this subtree.) | |
+|Error: No p element in scope but a p end tag seen.||
+|The frameborder attribute on the iframe element is obsolete. Use CSS instead.||
+
 # Deployment
 
 This project was developed on Github, using Gitpod as IDE. It has only master branch. This is pushed and deployed onto Heroku.
