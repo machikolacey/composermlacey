@@ -73,6 +73,8 @@ dl, ol, ul {
 .dropdown-item:focus, .dropdown-item:hover {
     background-color: #8fd694;
 }
+
+
 .text-info {
     color: #f26b8e!important;
 }
@@ -118,6 +120,7 @@ textarea{
 
 .main-content{
     padding: 0 0 40px 0;
+  
 }
 
 #footer {
@@ -125,13 +128,14 @@ textarea{
     bottom: 0;
     width: 100%;
     clear: both;
-    height: 190px;
-    margin-top: -151px;
+    height: 60px;
     font-size: 16;
     text-rendering: auto;
-    position: fixed;
+
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-color:#000;
+    color:#fff;
 }
 
 .tableft {

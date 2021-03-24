@@ -56,10 +56,11 @@
 
         {% block page_header %}
         {% endblock %}
- <div class="main-content">
-    {% block content %}
-    {% endblock %}
-</div>
+     <div class="main-content">
+        {% block content %}
+        {% endblock %}
+    </div>
+
     {% if request.user.is_authenticated %}
         {% if request.user.is_superuser %}
         <div class="add-product"> 
@@ -79,5 +80,6 @@
     {% endblock %}
     {% block postloadjs %}
     {% endblock %}
+
   </body>
 </html>
