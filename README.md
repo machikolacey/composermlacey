@@ -668,6 +668,10 @@ python manage.py createsuperuser
 
 15. Go to https://your-app-name-herokuapp.com/admin to find out your superuser login is working.
 
+# Defensive Features
+
+-   This website has quantity limit on product app, so an user is not able to add more then 30 products.
+
 # Credits
 
 ## Contents
