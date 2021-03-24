@@ -287,7 +287,9 @@ ul.song-titles li{
     color: #fff;
 }
 
-
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
 
 /* from Bulma */
 .icon {
