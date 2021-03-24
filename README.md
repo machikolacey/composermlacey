@@ -491,6 +491,17 @@ https://github.com/machikolacey/composermlacey/blob/master/wireframes/wireframe.
 | I would like to be able to modify event details	 | so I can update event details | I could modify event details at ease |
 | I would like to be able to update artist information pages | so I can flexibly refresh the page information | I could update information pages at ease |
 
+
+## Issues found
+| Issue    | How I fixed it  |
+|:------------- |:---------------|
+|The stylings was not attached to sign up page | added block inner_content onto the template |
+|The navbar was too large between 1020px and 768px| added more media queries to keep the same height |
+|On review section there was nothing mentioned when the user was logged out | Added a text to navigate users|
+|Navbar dropdown was too narrow on tablet size | Added css to make sure the dropdown is 100%|
+|Event start date, time was not displayed | Added the code on the template with Jinja formatter|
+|The header was full width, rather than container width | added container under header tag|
+
 ## Issues mentioned by code reviews
 
 | Issue    | How I fixed it  |
@@ -499,6 +510,7 @@ https://github.com/machikolacey/composermlacey/blob/master/wireframes/wireframe.
 |Need different images for different albums/ events||
 |Title needs to be consistent - '2021 summer concert' to be '2021 Summer Concert'||
 |each of the sub menu options under ABOUT I get a blank screen with "Page Template" on the way to displaying the required page||
+
 
 
 ## Validators
