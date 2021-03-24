@@ -22,10 +22,13 @@ There is a profile section to show her biology, and also the concept of her comp
   - [Project Goals](#project-goals)
     - [Wireframes](#Wireframing)
   - [User Stories](#user-stories)
-  - [Design](#design)
-  - [Project Objectives](#project-objectives)
-  - [Information Architecture](#information-architecture)
-
+- [Design](#design)
+- [Project Objectives](#project-objectives)
+- [Information Architecture](#information-architecture)
+- [Testing](#testing)
+- [Deployment](#deployment)
+- [Defensive Features](#defensive_features)
+- [Credits](#credits)
 
 ## UX
 
