@@ -148,8 +148,9 @@
     <h3><i class="fas fa-pencil-alt"></i>Reviews</h3>
     <div class="row">
         <div class="col-sm-12">
-                {% for review in reviews %}
-             
+ 
+            {% if reviews.count > 0 %}
+                {% for review in reviews %}         
                 <div class="row ">
                     <div class="col-md-12">
                         <div class="review">
@@ -169,6 +170,9 @@
                 </div>
                    
                 {% endfor %}
+            {% else %}    
+                <p>There is no reviews for this product.</p>
+            {% endif %}
         </div>
 
     </div>
@@ -183,6 +187,8 @@
             </form>
         </div>
     </div>
+    {% else %}  
+     <p>To write a review, you will have to <a href="{% url 'account_login' %}">login</a>. If you don't have an account, please <a href="{% url 'account_signup' %}">register</a> from here.</p>
     {% endif %}
 </div>
 
