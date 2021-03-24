@@ -17,9 +17,9 @@
 <div class="homepage-banner ">
         {% for advert in adverts %} 
             <div class="item">
-                 <a href="{{ advert.link_url }}"><img src="{{ MEDIA_URL }}{{ advert.banner }}" class="pc" /></a>
-                <a href="{{ advert.link_url }}"><img src="{{ MEDIA_URL }}{{ advert.banner_tablet_size }}" class="tablet" /></a>
-                <a href="{{ advert.link_url }}"><img src="{{ MEDIA_URL }}{{ advert.banner_mobile_size }}" class="mobile" /></a>
+                 <a href="{{ advert.link_url }}"><img src="{{ MEDIA_URL }}{{ advert.banner }}"           alt="{{ advert.title }}"  class="pc"    /></a>
+                <a href="{{ advert.link_url }}"><img src="{{ MEDIA_URL }}{{ advert.banner_tablet_size }}"  alt="{{ advert.title }}"  class="tablet" /></a>
+                <a href="{{ advert.link_url }}"><img src="{{ MEDIA_URL }}{{ advert.banner_mobile_size }}"  alt="{{ advert.title }}"  class="mobile" /></a>
            </div>
         {% endfor %}
 </div>
@@ -28,14 +28,14 @@
         <div class="row">
             <div class="col-md-6 col-sm-12">
                 <h3>{{ homepagevideo.title }}</h3>
-                <p>{{ homepagevideo.details | linebreaks }}</p>
+                <div>{{ homepagevideo.details | linebreaks }}</div>
                  {% if video.recorded %}
-                  <p class="recorded_at">Recorded at: {{ video.recorded }} </p>
+                  <div class="recorded_at">Recorded at: {{ video.recorded }} </div>
                  {% endif %}
             </div>
             <div class="col-md-6 col-sm-12">
                 <div class="videoWrapper">
-                    <iframe  src="{{ embedvideo }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe  src="{{ embedvideo }}" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>  
             </div>
         </div>    
