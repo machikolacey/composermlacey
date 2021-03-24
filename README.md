@@ -469,7 +469,7 @@ https://github.com/machikolacey/composermlacey/blob/master/wireframes/wireframe.
 | I would like to find out about genre of the artist's songs  | so I can see if her music suits my interest |  'Neo Classical Piano' page gives a good information to know the genre |
 | I would like to listen to samples of her songs	  | so I can see if the music feeds my interest |  On 'Sample videos' page I could listen to samples easily.  |
 | I would like to see how album jackets look like	  | so I can find it the album interests me |  I could see album jacket on the shop/ category/ product page |
-| I would like to find out venue, date, time and duration of the event  | so I can find out if I can attend it. |  result |
+| I would like to find out venue, date, time and duration of the event  | so I can find out if I can attend it. |  I could find event details on event product page |
 | I would like to purchase the artist's products and event tickets  | so I can enjoy her music. |  I could purchase the CD album through product, cart and checkout |
 | I would like to write a review on my purchased products  | so I can share my thoughts on my purchased products.   |  I could find review section on product page and add a review when logged in |
 | 	I would like to be able to purchase the products securely  | so I feel safe through payment section.|  I could feel safe on payment page, using Stripe |
@@ -483,14 +483,13 @@ https://github.com/machikolacey/composermlacey/blob/master/wireframes/wireframe.
 ### Site Owner
 | User Story    | Expected Outcome  | Actual Outcome | 
 |:------------- |:---------------|:--------------------|
-| I would like to be able to add a product easily | so I feel ease on adding product | result |
-| I would like to be able to edit a product easily	 | so I can update product details at ease | result |
-| I would like to be able to delete a product	 | so it won't show up on the website. | result |
-| I would like to be able to add album songs | so they will be displayed on the album product page | result |
-| I would like to be able to add event venue, date, time and duration | so they will be displayed on the event product page | result |
-| I would like to be able to modify event details	 | so I can update event details | result |
-| I would like to be able to approve or dissaprove user reviews | so I can manage customer reviews effectively | result |
-| I would like to be able to update artist information pages | so I can flexibly refresh the page information | result |
+| I would like to be able to add a product easily | so I feel ease on adding product | I could add a product at ease |
+| I would like to be able to edit a product easily	 | so I can update product details at ease | I could edit a product at ease |
+| I would like to be able to delete a product	 | so it won't show up on the website. | I could delete a product at ease |
+| I would like to be able to add album songs | so they will be displayed on the album product page | I could add album songs at ease |
+| I would like to be able to add event venue, date, time and duration | so they will be displayed on the event product page | I could add event venue, date, time, and duration at ease |
+| I would like to be able to modify event details	 | so I can update event details | I could modify event details at ease |
+| I would like to be able to update artist information pages | so I can flexibly refresh the page information | I could update information pages at ease |
 
 ## Issues mentioned by code reviews
 
