@@ -130,9 +130,8 @@ textarea{
     width: 100%;
     clear: both;
     height: 60px;
-    font-size: 16;
+    font-size: 1rem;
     text-rendering: auto;
-
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-color:#000;

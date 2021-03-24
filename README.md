@@ -517,19 +517,29 @@ https://github.com/machikolacey/composermlacey/blob/master/wireframes/wireframe.
 This was ran through these validators.
 
 <ul>
-<li><a href="https://jigsaw.w3.org/css-validator/" target="_blank">CSS Validation Service</a></li>
-<li><a href="https://validator.w3.org/" target="_blank">Markup Validation Service</a></li>
+<li><a href="https://validator.w3.org/" target="_blank">W3C HTML Validations</a></li>
+<li><a href="https://jigsaw.w3.org/css-validator/" target="_blank">W3C CSS Validations</a></li>
 <li><a href="http://pep8online.com/" target="_blank">PEP8 Online Checker</a></li>
 <li><a href="http://jshint.com/" target="_blank">JSHint, A Static Code Analysis Tool for JavaScript</a></li>
 </ul>
 
-### Result - W3C Validations
+### Result - W3C HTML Validations
 
 | Issue    | How I fixed it  |
 |:------------- |:---------------|
-|Error: Element li not allowed as child of element nav in this context. (Suppressing further errors from this subtree.) | |
-|Error: No p element in scope but a p end tag seen.||
-|The frameborder attribute on the iframe element is obsolete. Use CSS instead.||
+|Error: Element li not allowed as child of element nav in this context. (Suppressing further errors from this subtree.) | Added ul above the li tags|
+|Error: No p element in scope but a p end tag seen.| Replaced p tag with div tag on one of them |
+|The frameborder attribute on the iframe element is obsolete. Use CSS instead.| Removed frameborder=0 on iframe tags |
+
+### Result - W3C CSS Validations
+| Issue    | How I fixed it  |
+|:------------- |:---------------|
+|Value Error : font-size only 0 can be a unit. You must put a unit after your number : 16| added '1 rem' instead of '16'|
+
+
+Other errors are coming from Font Awesome, Bootstrap which is recommended by Code Institute. We have no controll over them.
+
+<img src="https://res.cloudinary.com/machikolacey/image/upload/v1616623997/milestone4/w3ccss_xirbio.png" />
 
 # Deployment
 
