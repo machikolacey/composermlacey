@@ -64,6 +64,7 @@ dl, ol, ul {
     list-style: none;
     background-color: #14110f;
     border-radius: 0;
+    top:90%;
 }
 
 .dropdown-item {
