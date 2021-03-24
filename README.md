@@ -68,9 +68,6 @@ They can achieve their goals because
 - The review model provides users to write about the products, so it gives them opportunities to find out what other people thought about their purchase.
 
 
-<div align="right">
-    <b><a href="#table-of-contents">Back To Top</a></b>
-</div>
 
 #### Project Goals <!-- omit in toc -->
 
@@ -93,9 +90,6 @@ The main goals of the site for the visitors are:
 - To discover the details of the artist 
 - To discover the genre of the artist is going to achieve
 
-<div align="right">
-    <b><a href="#table-of-contents">Back To Top</a></b>
-</div>
 
 
 #### Project Objectives <!-- omit in toc -->
@@ -117,9 +111,7 @@ The main goals of the site for the visitors are:
 - Have a preview of his art by watching his videos.
 - Discover what CDs he offers on sale and be able to securely purchase them from home.
 
-<div align="right">
-    <b><a href="#table-of-contents">Back To Top</a></b>
-</div>
+
 
 ### User Stories
 
@@ -159,9 +151,7 @@ The main goals of the site for the visitors are:
 | As a user | I would like to be able to approve or dissaprove user reviews | so I can manage customer reviews effectively |
 | As a user | I would like to be able to update artist information pages | so I can flexibly refresh the page information.                      |
 
-<div align="right">
-    <b><a href="#table-of-contents">Back To Top</a></b>
-</div>
+
 
 
 ### Design
@@ -194,9 +184,7 @@ I used Nanum Myeongjo as a normal font to support the primary font. This font is
 
 ![Nanum Myeongjo](https://res.cloudinary.com/machikolacey/image/upload/v1614293171/milestone4/google-font-open-sans_cbztjc.jpg)
 
-<div align="right">
-    <b><a href="#table-of-contents"> Back To Top</a></b>
-</div>
+
 
 ### Wireframing
 As tablet layout is similar to mobile phone layout, tablet is omitted on this wireframe.
@@ -464,9 +452,7 @@ https://github.com/machikolacey/composermlacey/blob/master/wireframes/wireframe.
 |default_country|CountryField| null=True, blank=True|
 
 
-<div align="right">
-    <b><a href="#table-of-contents">↥ Back To Top</a></b>
-</div>
+
 
 ## Testing
 ### User stories
