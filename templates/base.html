@@ -53,13 +53,13 @@
             {% endfor %}
         </div>
     {% endif %}
-    <div class="main-content">
+
         {% block page_header %}
         {% endblock %}
-    </div>
+ <div class="main-content">
     {% block content %}
     {% endblock %}
-      
+</div>
     {% if request.user.is_authenticated %}
         {% if request.user.is_superuser %}
         <div class="add-product"> 

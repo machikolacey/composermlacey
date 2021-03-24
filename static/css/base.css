@@ -17,10 +17,26 @@ h1, h2, h3, h4, h5, h6{
     text-transform: uppercase;
     font-weight: 700;
 }
+h1{
+    font-size: 1.7rem;
+}
+
+h2{
+    font-size: 1.6rem;
+}
+h3{
+    font-size: 1.4rem;
+}
+
 h4{
     font-size: 1.2rem;
     text-transform: capitalize;
 }
+
+h1.page-title{
+    margin-top:20px;
+}
+
 .table-responsive h4{
     color:#444;
 }
@@ -75,6 +91,10 @@ textarea{
 .nav-link {
     font-size: 0.8rem;
     font-weight: 700;
+}
+
+.main-content{
+    padding: 0 0 40px 0;
 }
 
 #footer {
