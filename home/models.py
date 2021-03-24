@@ -1,7 +1,8 @@
 from django.db import models
-from embed_video.fields import EmbedVideoField
+
 
 # Create your models here.
+
 
 class Advert(models.Model):
     link_url = models.URLField(max_length=1024, null=True, blank=True)

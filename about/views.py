@@ -7,6 +7,7 @@ from .models import Images
 def index(request, permalink):
     """ A view to return the index page """
 
+
     sampleVideos = SampleVideo.objects.all()
 
 

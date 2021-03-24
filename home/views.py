@@ -2,6 +2,7 @@ from django.shortcuts import render
 from .models import Advert, homepageVideo
 from products.models import Product
 
+
 def index(request):
     """ A view to return the index page """
 
@@ -18,4 +19,3 @@ def index(request):
         'embedvideo': embedvideo
     }
     return render(request, 'home/index.html', context)
-
