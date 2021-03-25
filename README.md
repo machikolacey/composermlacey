@@ -506,10 +506,14 @@ https://github.com/machikolacey/composermlacey/blob/master/wireframes/wireframe.
 
 | Issue    | How I fixed it  |
 |:------------- |:---------------|
-|Possibly need extra time delay switching between the 2 hero images ||
-|Need different images for different albums/ events||
-|Title needs to be consistent - '2021 summer concert' to be '2021 Summer Concert'||
-|each of the sub menu options under ABOUT I get a blank screen with "Page Template" on the way to displaying the required page||
+|Possibly need extra time delay switching between the 2 hero images | result |
+|Need different images for different albums/ events|result|
+|Title needs to be consistent - '2021 summer concert' to be '2021 Summer Concert'|result|
+|each of the sub menu options under ABOUT I get a blank screen with "Page Template" on the way to displaying the required page|result|
+|The link to the bag is not visible on mobilephone|result|
+|The navigator is overflowing on Slick slider|result|
+|When signed up, confirmation email was not received|result|
+|On mobile phone, the toast message is pointing nowhere|result|
 
 
 
