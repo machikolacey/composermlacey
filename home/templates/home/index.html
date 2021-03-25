@@ -16,6 +16,7 @@
 
 <div class="homepage-banner ">
         {% for advert in adverts %} 
+ 
             <div class="item">
                  <a href="{{ advert.link_url }}"><img src="{{ MEDIA_URL }}{{ advert.banner }}"           alt="{{ advert.title }}"  class="pc"    /></a>
                 <a href="{{ advert.link_url }}"><img src="{{ MEDIA_URL }}{{ advert.banner_tablet_size }}"  alt="{{ advert.title }}"  class="tablet" /></a>
