@@ -55,7 +55,7 @@
 |The link to the bag is not visible on mobile devices|Added a link to the cart page on the mobile phone navigation|
 |The navigator is overflowing on Slick slider| Removed navigator so it won't overflow the viewport|
 |When signed up, confirmation email was not received| Removed a config var on Heroku |
-|On mobile phone, the toast message is pointing nowhere|result|
+|On mobile phone, the toast message is pointing nowhere|Moved the toast message to left so it looks left aligned|
 
 
 
@@ -82,6 +82,18 @@ This was ran through these validators.
 |:------------- |:---------------|
 |Value Error : font-size only 0 can be a unit. You must put a unit after your number : 16| added '1 rem' instead of '16'|
 
+
+### Result - PEP8 Online Checker
+
+#### Home app
+| Issue    | How I fixed it  |
+|:------------- |:---------------|
+|DJ01 Avoid using null=True on string-based fields such URLField.| result|
+|W291 trailing whitespace| result|
+|E303 too many blank lines ||
+|W391 blank line at end of file||
+|DJ01 Avoid using null=True on string-based fields such TextField.||
+|DJ01 Avoid using null=True on string-based fields such CharField.||
 
 Other errors are coming from Font Awesome, Bootstrap which is recommended by Code Institute. We have no controll over them.
 
