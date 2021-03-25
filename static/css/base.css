@@ -646,7 +646,9 @@ input[name='q']::placeholder {
         z-index: 1030;
     }
 
-   
+   .nav-item.mobile{
+       display:none;
+   }
 }
 @media (max-width: 1024px) {
     .logo-font {
