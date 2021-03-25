@@ -48,12 +48,12 @@
 
 | Issue    | How I fixed it  |
 |:------------- |:---------------|
-|Possibly need extra time delay switching between the 2 hero images | result |
+|Possibly need extra time delay switching between the 2 hero images | changed time delay from 3 seconds to 7 seconds |
 |Need different images for different albums/ events|result|
 |Title needs to be consistent - '2021 summer concert' to be '2021 Summer Concert'|result|
-|each of the sub menu options under ABOUT I get a blank screen with "Page Template" on the way to displaying the required page|result|
-|The link to the bag is not visible on mobilephone|result|
-|The navigator is overflowing on Slick slider|result|
+|each of the sub menu options under ABOUT I get a blank screen with "Page Template" on the way to displaying the required page| Removed the text from the template |
+|The link to the bag is not visible on mobile devices|result|
+|The navigator is overflowing on Slick slider| Removed navigator so it won't overflow the viewport|
 |When signed up, confirmation email was not received|result|
 |On mobile phone, the toast message is pointing nowhere|result|
 
