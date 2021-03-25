@@ -52,7 +52,7 @@
 |Need different images for different albums/ events|result|
 |Title needs to be consistent - '2021 summer concert' to be '2021 Summer Concert'|result|
 |each of the sub menu options under ABOUT I get a blank screen with "Page Template" on the way to displaying the required page| Removed the text from the template |
-|The link to the bag is not visible on mobile devices|result|
+|The link to the bag is not visible on mobile devices|Added a link to the cart page on the mobile phone navigation|
 |The navigator is overflowing on Slick slider| Removed navigator so it won't overflow the viewport|
 |When signed up, confirmation email was not received|result|
 |On mobile phone, the toast message is pointing nowhere|result|
