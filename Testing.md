@@ -82,6 +82,9 @@ This was ran through these validators.
 |:------------- |:---------------|
 |Value Error : font-size only 0 can be a unit. You must put a unit after your number : 16| added '1 rem' instead of '16'|
 
+Other errors are coming from Font Awesome, Bootstrap which is recommended by Code Institute. We have no controll over them.
+
+<img src="https://res.cloudinary.com/machikolacey/image/upload/v1616623997/milestone4/w3ccss_xirbio.png" />
 
 ### Result - PEP8 Online Checker
 
@@ -94,7 +97,3 @@ This was ran through these validators.
 |W391 blank line at end of file||
 |DJ01 Avoid using null=True on string-based fields such TextField.||
 |DJ01 Avoid using null=True on string-based fields such CharField.||
-
-Other errors are coming from Font Awesome, Bootstrap which is recommended by Code Institute. We have no controll over them.
-
-<img src="https://res.cloudinary.com/machikolacey/image/upload/v1616623997/milestone4/w3ccss_xirbio.png" />
