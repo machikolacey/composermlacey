@@ -1,5 +1,5 @@
 from django.db import models
-from embed_video.fields import EmbedVideoField
+
 
 # Create your models here.
 class Page(models.Model):
@@ -13,6 +13,7 @@ class Page(models.Model):
     def __str__(self):
         return self.title
 
+
 class SampleVideo(models.Model):
 
     title = models.CharField(max_length=254)
@@ -21,17 +22,16 @@ class SampleVideo(models.Model):
     recorded = models.CharField(max_length=254, default='',  blank=True)
     details = models.TextField(default='',  blank=True)
 
-
     def __str__(self):
         return self.title
 
 
-
 class Images(models.Model):
 
-    page = models.ForeignKey('Page', default='',  blank=True, on_delete=models.CASCADE)
+    page  = models.ForeignKey('Page', 
+            default='', blank=True, on_delete=models.CASCADE)
     image = models.ImageField(default='',  blank=True)
-    caption = models.CharField(max_length=254, null=True)
+    caption = models.CharField(max_length=254, default='')
 
     def __str__(self):
         return self.caption
