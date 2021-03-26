@@ -6,9 +6,9 @@ class Page(models.Model):
 
     permalink = models.CharField(max_length=254)
     title = models.CharField(max_length=254)
-    content = models.TextField(null=True, blank=True)
-    primaryImage = models.ImageField(null=True, blank=True)
-    secondaryImage = models.ImageField(null=True, blank=True)
+    content = models.TextField(default='',  blank=True)
+    primaryImage = models.ImageField(default='',  blank=True)
+    secondaryImage = models.ImageField(default='',  blank=True)
 
     def __str__(self):
         return self.title
@@ -17,9 +17,9 @@ class SampleVideo(models.Model):
 
     title = models.CharField(max_length=254)
     subtitle = models.CharField(max_length=254)
-    youtube_link = models.CharField(max_length=254, null=True, blank=True)
-    recorded = models.CharField(max_length=254, null=True, blank=True)
-    details = models.TextField(null=True, blank=True)
+    youtube_link = models.CharField(max_length=254, default='',  blank=True)
+    recorded = models.CharField(max_length=254, default='',  blank=True)
+    details = models.TextField(default='',  blank=True)
 
 
     def __str__(self):
@@ -29,8 +29,8 @@ class SampleVideo(models.Model):
 
 class Images(models.Model):
 
-    page = models.ForeignKey('Page', null=True, blank=True, on_delete=models.SET_NULL)
-    image = models.ImageField(null=True, blank=True)
+    page = models.ForeignKey('Page', default='',  blank=True, on_delete=models.CASCADE)
+    image = models.ImageField(default='',  blank=True)
     caption = models.CharField(max_length=254, null=True)
 
     def __str__(self):
