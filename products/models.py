@@ -8,7 +8,7 @@ class Category(models.Model):
         verbose_name_plural = 'Categories'
 
     name = models.CharField(max_length=254)
-    friendly_name = models.CharField(max_length=254, null=True, blank=True)
+    friendly_name = models.CharField(max_length=254, default="", blank=True)
 
     def __str__(self):
         return self.name
@@ -23,7 +23,7 @@ class Product(models.Model):
         null=True,
         blank=True,
         on_delete=models.SET_NULL)
-    sku = models.CharField(max_length=254, null=True, blank=True)
+    sku = models.CharField(max_length=254, default="", blank=True)
     name = models.CharField(max_length=254)
     description = models.TextField()
     has_sizes = models.BooleanField(default=False, null=True, blank=True)
@@ -33,8 +33,8 @@ class Product(models.Model):
         decimal_places=2,
         null=True,
         blank=True)
-    image_url = models.URLField(max_length=1024, null=True, blank=True)
-    image = models.ImageField(null=True, blank=True)
+    image_url = models.URLField(max_length=1024, default="", blank=True)
+    image = models.ImageField(default="", blank=True)
 
     def __str__(self):
         return self.name
@@ -60,9 +60,9 @@ class Event(models.Model):
     )
     start_date_time = models.DateTimeField()
     end_date_time = models.DateTimeField()
-    event_title = models.TextField(max_length=250, null=True, blank=True)
+    event_title = models.TextField(max_length=250, default="", blank=True)
     is_virtual = models.BooleanField(default=False, null=True, blank=True)
-    video_link = models.TextField(max_length=1000, null=True, blank=True)
+    video_link = models.TextField(max_length=1000, default="", blank=True)
 
     def __str__(self):
         return self.event_title + '/ ' + \
@@ -75,7 +75,7 @@ class Album(models.Model):
         on_delete=models.CASCADE
     )
     album_runtime = models.IntegerField(null=False, blank=False)
-    album_jacket = models.ImageField(null=True, blank=True)
+    album_jacket = models.ImageField(default="", blank=True)
 
     def __str__(self):
         return self.product.name
@@ -84,7 +84,7 @@ class Album(models.Model):
 class AlbumSongs(models.Model):
     album = models.ForeignKey(
         Album, on_delete=models.CASCADE, related_name='albumsongs')
-    song_title = models.TextField(max_length=250, null=True, blank=True)
+    song_title = models.TextField(max_length=250, default="", blank=True)
 
     def __str__(self):
         return self.album.product.name + '-' + self.song_title
