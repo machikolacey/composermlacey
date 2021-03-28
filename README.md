@@ -422,7 +422,7 @@ This website is using Sprite, for payment integration.
 
 ##### Images <!-- omit in toc -->
  
-- This model is related to Page model, which enables an user to add multiple images for one page.
+This model is related to Page model, which enables an user to add multiple images for one page.
 | Key                    | Type       | Validation                                |
 | ---------------------- | ---------- | ------------------------------------------|
 | page               | ForeignKey  | 'Page',   default='', blank=True, on_delete=models.CASCADE  |
@@ -456,7 +456,7 @@ This website is using Sprite, for payment integration.
 
 
 ##### OrderLineItem <!-- omit in toc -->
-- This model is related to Order Model, which allows an user to add multiple items in one order.
+This model is related to Order Model, which allows an user to add multiple items in one order.
 | Key            | Type              | Validation                                                             |
 | -------------- | ----------------- | ---------------------------------------------------------------------- |
 | order          | ForeignKey: Order | null=False, blank=False, on_delete=models.CASCADE                      |
