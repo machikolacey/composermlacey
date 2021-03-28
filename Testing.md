@@ -88,12 +88,59 @@ Other errors are coming from Font Awesome, Bootstrap which is recommended by Cod
 
 ### Result - PEP8 Online Checker
 
-#### Home app
+#### Examples of errors I fixed on each .py file
 | Issue    | How I fixed it  |
 |:------------- |:---------------|
-|DJ01 Avoid using null=True on string-based fields such URLField.| result|
-|W291 trailing whitespace| result|
-|E303 too many blank lines ||
-|W391 blank line at end of file||
-|DJ01 Avoid using null=True on string-based fields such TextField.||
-|DJ01 Avoid using null=True on string-based fields such CharField.||
+|DJ01 Avoid using null=True on string-based fields such URLField.| Converted null=True to default=''|
+|E303 too many blank lines | Reduced lines |
+|W391 blank line at end of file| Added a line at the end of the file |
+|E501 line too long (80 > 79 characters)| split them into lines and followed recommended formats |
+
+| File    | PEP8 validation test and fix  |
+|:------------- |:---------------|
+|home/admin.py|	done|
+|home/apps.py|	done|
+|home/models.py|	done|
+|home/tests.py|	done|
+|home/urls.py|	done|
+|home/views.py|	done|
+|about/admin.py|done|
+|about/apps.py	|done|
+|	about/models.py|	done|
+|	about/tests.py|	done|
+|	about/urls.py|	done|
+|	about/views.py|	done|
+|bag/admin.py	|done|
+|bag/apps.py|	done|
+|bag/contexts.py	|done|
+|bag/models.py|	done|
+|bag/tests.py	|done|
+|bag/urls.py|	done|
+|bag/views.py|	done|
+|checkout/admin.py|	done|
+|checkout/models.py|	done|
+|checkout/tests.py|	done|
+|checkout/apps.py|done |
+|checkout/urls.py	|done|
+|checkout/views.py|	done|
+|checkout/webhook_handlers.py|done*1|
+|checkout/webhooks.py|	done|
+|mlkshop/asgi.py|	done|
+|mlkshop/urls.py|	done|
+|mlkshop/wdgi.py	|done|
+|mlkshop/settings.py	|done *2|
+|products/admin.py	|done|
+|products/apps.py|	done|
+|products/models.py|	done|
+|products/tests.py|	done|
+|products/urls.py|	done|
+|products/views.py|	done|
+|profiles/admin.py|	done|
+|profiles/apps.py	|done|
+|profiles/models.py|	done|
+|profiles/tests.py	|done|
+|profiles/urls.py|	done|
+|profiles/views.py|	done|
+
+*1
+
