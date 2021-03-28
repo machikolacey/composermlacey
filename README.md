@@ -470,13 +470,13 @@ This model is related to Order Model, which allows an user to add multiple items
 | Key            | Type              | Validation                                                             |
 | -------------- | ----------------- | ---------------------------------------------------------------------- |
 | user          | OneToOneField: User | on_delete=models.CASCADE                  |
-| default_phone_number             | CharField   | max_length=20, null=True, blank=True                    |
-| default_street_address1       | CharField      | max_length=80, null=True, blank=True                                |
-| default_street_address2 | CharField      | max_length=80, null=True, blank=True |
-|default_town_or_city|CharField|max_length=40, null=True, blank=True|
-|default_county|CharField|max_length=80, null=True, blank=True|
-|default_postcode|CharField|max_length=20, null=True, blank=True|
-|default_country|CountryField| null=True, blank=True|
+| default_phone_number             | CharField   | max_length=20,  default='', blank=True                    |
+| default_street_address1       | CharField      | max_length=80,  default='', blank=True                                |
+| default_street_address2 | CharField      | max_length=80,  default='', blank=True |
+|default_town_or_city|CharField|max_length=40,  default='', blank=True|
+|default_county|CharField|max_length=80,  default='', blank=True|
+|default_postcode|CharField|max_length=20,  default='', blank=True|
+|default_country|CountryField|  default='', blank=True|
 
 
 
