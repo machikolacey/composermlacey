@@ -123,12 +123,12 @@ Other errors are coming from Font Awesome, Bootstrap which is recommended by Cod
 |checkout/apps.py|done |
 |checkout/urls.py	|done|
 |checkout/views.py|	done|
-|checkout/webhook_handlers.py|done*1|
+|checkout/webhook_handlers.py|done|
 |checkout/webhooks.py|	done|
 |mlkshop/asgi.py|	done|
 |mlkshop/urls.py|	done|
 |mlkshop/wdgi.py	|done|
-|mlkshop/settings.py	|done *2|
+|mlkshop/settings.py	|done |
 |products/admin.py	|done|
 |products/apps.py|	done|
 |products/models.py|	done|
@@ -142,5 +142,5 @@ Other errors are coming from Font Awesome, Bootstrap which is recommended by Cod
 |profiles/urls.py|	done|
 |profiles/views.py|	done|
 
-*1
+
 
