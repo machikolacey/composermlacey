@@ -42,7 +42,7 @@
                  <h2>{{ product.name }}</h2>
 
                 {% if product.album.album_runtime %}
-                Runtime : {{ product.album.album_runtime }}
+                <span class="runtime">Runtime : {{ product.album.album_runtime }} minutes</span>
           
                 {% endif %}
                     {% if product.event.event_title %}
