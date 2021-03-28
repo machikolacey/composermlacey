@@ -144,3 +144,10 @@ Other errors are coming from Font Awesome, Bootstrap which is recommended by Cod
 
 
 
+### Result - jshint
+#### Examples of errors I fixed
+
+| Issue    | How I fixed it  |
+|:------------- |:---------------|
+|Duplicate key 'dots'.||
+
