@@ -149,5 +149,6 @@ Other errors are coming from Font Awesome, Bootstrap which is recommended by Cod
 
 | Issue    | How I fixed it  |
 |:------------- |:---------------|
-|Duplicate key 'dots'.||
+|Duplicate key 'dots'.| Removed duplicated key|
+|||
 

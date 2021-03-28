@@ -53,6 +53,17 @@ a:hover{
 .text-primary {
     color: #8fd694!important;
 }
+
+.arrow-success {
+    border-bottom-color: #7dba84 !important;
+}
+.bg-success {
+    border-bottom-color: #7dba84 !important;
+}
+.bg-warning {
+    background-color: #7dba84 !important;
+}
+
 dl, ol, ul {
     margin: 0;
     padding: 0;
@@ -81,9 +92,6 @@ dl, ol, ul {
 }
 a.text-info:focus, a.text-info:hover {
     color: #7dba84!important;
-}
-.bg-warning {
-    background-color: #f5cd58!important;
 }
 
 .list-inline-item.cart a{
@@ -587,6 +595,11 @@ input[name='q']::placeholder {
     bottom:10px;
     right:10px;
 }
+
+
+
+
+
 @media (min-width: 1040px) {
        .homepage-banner .pc{
         display:block;
