@@ -206,21 +206,30 @@ This website has these main features.
 ### Shop functionality
 - This website has shopping functionality, so admin can add products, an user can see the product pages, add to cart, go to checkout to make a payment.
 
-### Reviews
-- This website allows a logged in user to add reviews on products, using a form.
+#### Category page
+<img src="https://res.cloudinary.com/machikolacey/image/upload/v1616963106/milestone4/all-products-page_fpythf.png" />
 
+#### Cart (bag) page
+<img src="https://res.cloudinary.com/machikolacey/image/upload/v1616963393/milestone4/bag-page_cyvl9l.png" />
+
+#### Checkout page
+<img src="https://res.cloudinary.com/machikolacey/image/upload/v1616963494/milestone4/checkout_c3le4c.png" />
+
+#### Sprite payment integration
+This website is using Sprite, for payment integration.
+<img src="https://res.cloudinary.com/machikolacey/image/upload/v1616963564/milestone4/sprite_cgawd3.png" />
+
+### Reviews
+- This website allows a logged in user to add reviews on products, using a form. A review will be added as a record on reviews table on database.
+<img src="https://res.cloudinary.com/machikolacey/image/upload/v1616543550/milestone4/feature-4_l7pjnk.png" />
 
 
 ## Additional Features
 
 ## Extra images - automatic photo gallery
 - An admin can also add extra images, which makes the image area to an image gallery automatically.
-
  <img src="https://res.cloudinary.com/machikolacey/image/upload/v1616543832/milestone4/feature-10_doemvi.png" />
 
-## Product review
-- A registered user can add their own review on product page.
-<img src="https://res.cloudinary.com/machikolacey/image/upload/v1616543550/milestone4/feature-4_l7pjnk.png" />
 
 ## Homepage banner
 - An admin can add advert with a page link through admin.
