@@ -49,8 +49,8 @@
 | Issue    | How I fixed it  |
 |:------------- |:---------------|
 |Possibly need extra time delay switching between the 2 hero images | changed time delay from 3 seconds to 7 seconds |
-|Need different images for different albums/ events|result|
-|Title needs to be consistent - '2021 summer concert' to be '2021 Summer Concert'|result|
+|Need different images for different albums/ events| Added different images on each product|
+|Title needs to be consistent - '2021 summer concert' to be '2021 Summer Concert'| Added consistent titles|
 |each of the sub menu options under ABOUT I get a blank screen with "Page Template" on the way to displaying the required page| Removed the text from the template |
 |The link to the bag is not visible on mobile devices|Added a link to the cart page on the mobile phone navigation|
 |The navigator is overflowing on Slick slider| Removed navigator so it won't overflow the viewport|
@@ -150,5 +150,3 @@ Other errors are coming from Font Awesome, Bootstrap which is recommended by Cod
 | Issue    | How I fixed it  |
 |:------------- |:---------------|
 |Duplicate key 'dots'.| Removed duplicated key|
-|||
-
