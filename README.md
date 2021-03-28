@@ -315,22 +315,22 @@ This website is using Sprite, for payment integration.
 
 | Key                    | Type       | Validation                                |
 | ---------------------- | ---------- | ------------------------------------------|
-| link_url               | URLField  | max_length=1024, null=True, blank=True    |
-| banner                 | ImageField  | null=True, blank=True                     |   
-| banner_tablet_size     |  ImageField | null=True, blank=True                     |
-| banner_mobile_size     |  ImageField | null=True, blank=True                     |
-| name                   | TextField   | null=True, blank=True                     |
+| link_url               | URLField  | max_length=1024, default='',  blank=True |
+| banner                 | ImageField  |default='',  blank=True                    |   
+| banner_tablet_size     |  ImageField |default='',  blank=True                  |
+| banner_mobile_size     |  ImageField | default='',  blank=True                  |
+| name                   | TextField   | default='',  blank=True                   |
 
 
 ##### homepageVideo <!-- omit in toc -->
 
 | Key                    | Type       | Validation                                |
 | ---------------------- | ---------- | ------------------------------------------|
-| title               | CharField  | max_length=1024, null=True, blank=True    |
-| subtitle                 | CharField  | null=True, blank=True                     |   
-| youtube_link     |  CharField | max_length=254, null=True, blank=True                  |
-| details                   | TextField   | null=True, blank=True                     |
-
+| title               | CharField  |max_length=254   |
+| subtitle                 | CharField  | max_length=254                   |   
+| youtube_link     |  CharField | max_length=254, default='',  blank=True              |
+| details                   | TextField   | default='',  blank=True                 |
+| recorded                   | TextField   | max_length=254, default='',  blank=True           |
 
 
 
@@ -341,22 +341,22 @@ This website is using Sprite, for payment integration.
 | Key       | Type      | Validation                                  |
 | --------- | --------- | ------------------------------------------- |
 | name      | CharField | max_length=254    |
-| friendly_Name     | CharField | max_length=254, null=True, blank=True   |
+| friendly_Name     | CharField | max_length=254, default="", blank=True   |
 
 ##### Product
 
 | Key       | Type      | Validation                                  |
 | --------- | --------- | ------------------------------------------- |
 | category      | ForeignKey : Category| null=True, blank=True, on_delete=models.SET_NULL   |
-| sku     | CharField | max_length=254, null=True, blank=True  |
+| sku     | CharField |max_length=254, default="", blank=True  |
 | name     | CharField | max_length=254  |
 | description     | CharField | |
 | has_sizes     | BooleanField | default=False, null=True, blank=True |
 | price     | DecimalField | max_digits=6, decimal_places=2 |
 | rating     | DecimalField | max_digits=6, decimal_places=2, null=True, blank=Tru |
-| image_url     | CharField |max_length=1024, null=True, blank=True  |
-| image     | ImageField | null=True, blank=True |
-| download_link     | TextField | null=True, blank=True  |
+| image_url     | CharField |max_length=1024, default="", blank=True  |
+| image     | ImageField | default="", blank=True |
+
 
 ##### Review
 
@@ -403,29 +403,31 @@ This website is using Sprite, for payment integration.
 
 | Key                    | Type       | Validation                                |
 | ---------------------- | ---------- | ------------------------------------------|
-| permalink               | CharField  | max_length=254  |
+| permalink               | CharField  | max_length=254                    |
 | title                   | CharField  | max_length=254                    |   
-| content                 |  TextField | null=True, blank=True                   |
-| primaryImage            |  ImageField | null=True, blank=True                     |
-| secondaryImage          | ImageField   | null=True, blank=True                     |
+| content                 |  TextField | default='',  blank=True               |
+| primaryImage            |  ImageField | default='',  blank=True                |
+| secondaryImage          | ImageField   | default='',  blank=True               |
 
 
 ##### SampleVideo <!-- omit in toc -->
 
 | Key                    | Type       | Validation                                |
 | ---------------------- | ---------- | ------------------------------------------|
-| title               | CharField  | 'Page', null=True, blank=True, on_delete=models.SET_NUL  |
-| subtitle                   | CharField  | null=True, blank=True                   |   
-| youtube_link                 |  CharField | max_length=254, null=True                 |
-| details                 |  TextField | max_length=254, null=True                 |
+| title               | CharField  | max_length=254  |
+| subtitle                   | CharField  | max_length=254                |   
+| youtube_link                 |  CharField | max_length=254, default='',  blank=True  |
+| recorded                  |  CharField | max_length=254, default='',  blank=True  |
+| details                 |  TextField | default='',  blank=True              |
 
 ##### Images <!-- omit in toc -->
-
+ 
+- This model is related to Page model, which enables an user to add multiple images for one page.
 | Key                    | Type       | Validation                                |
 | ---------------------- | ---------- | ------------------------------------------|
-| page               | ForeignKey  | 'Page', null=True, blank=True, on_delete=models.SET_NUL  |
-| image                   | ImageField  | null=True, blank=True                   |   
-| caption                 |  CharField | max_length=254, null=True                 |
+| page               | ForeignKey  | 'Page',   default='', blank=True, on_delete=models.CASCADE  |
+| image                   | ImageField  | default='',  blank=True                 |   
+| caption                 |  CharField | max_length=254, default=''              |
 
 ###  Models used in checkout app  <!-- omit in toc -->
 
@@ -438,11 +440,11 @@ This website is using Sprite, for payment integration.
 | full_name     | CharField               | max_length=50, null=False, blank=False                                  |
 | email         | EmailField              | max_length=254, null=False, blank=False                                 |
 | phone_number  | CharField               | max_length=20, null=False, blank=False                                  |
-| country       | CountryField            | blank_label='Country*', null=False, blank=False                         |
-| postcode      | CharField               | max_length=20, null=True, blank=True                                    |
+| country       | CountryField            | blank_label='Country*', default="", blank=False                         |
+| postcode      | CharField               | max_length=20, default="", blank=True                                    |
 | town_or_city  | CharField               | max_length=40, null=False, blank=False                                  |
 | address_line1 | CharField               | max_length=80, null=False, blank=False                                  |
-| address_line2 | CharField               | max_length=80, null=True, blank=True                                    |
+| address_line2 | CharField               | max_length=80, default="", blank=True                                    |
 | date          | DateTimeField           | auto_now_add=True                                                       |
 | delivery_cost | DecimalField            | max_digits=6, decimal_places=2, null=False, default=0                   |
 | order_total   | DecimalField            | max_digits=10, decimal_places=2, null=False, default=0                  |
@@ -454,7 +456,7 @@ This website is using Sprite, for payment integration.
 
 
 ##### OrderLineItem <!-- omit in toc -->
-
+- This model is related to Order Model, which allows an user to add multiple items in one order.
 | Key            | Type              | Validation                                                             |
 | -------------- | ----------------- | ---------------------------------------------------------------------- |
 | order          | ForeignKey: Order | null=False, blank=False, on_delete=models.CASCADE                      |
