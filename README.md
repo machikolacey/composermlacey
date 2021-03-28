@@ -196,9 +196,22 @@ https://github.com/machikolacey/composermlacey/blob/master/wireframes/wireframe.
 
 # Features
 
-## Page CMS
+## Main Features
+This website has these main features.
+
+### Page CMS and page views
 - This website has a feature to add page content, so an admin person can easily add a content from admin area, with 2 images.
 <img src="https://res.cloudinary.com/machikolacey/image/upload/v1616542982/milestone4/feature-1_pmgn2m.png" />
+
+### Shop functionality
+- This website has shopping functionality, so admin can add products, an user can see the product pages, add to cart, go to checkout to make a payment.
+
+### Reviews
+- This website allows a logged in user to add reviews on products, using a form.
+
+
+
+## Additional Features
 
 ## Extra images - automatic photo gallery
 - An admin can also add extra images, which makes the image area to an image gallery automatically.
