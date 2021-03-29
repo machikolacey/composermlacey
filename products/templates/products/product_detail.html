@@ -46,7 +46,7 @@
           
                 {% endif %}
                     {% if product.event.event_title %}
-                        <h3 class="sub-title"> {{ product.event.event_title  | linebreaks  }} </h3>
+                        <h3 class="sub-title"> {{ product.event.event_title }} </h3>
                     {% endif %}
                     {% if product.event.start_date_time   %}
                         <h3 class="event-date"> 
@@ -75,7 +75,7 @@
                            <li  class="d-inline"><a class="text-danger" href="{% url 'delete_product' product.id %}">Delete</a></li>
                         </ul>
                     {% endif %}
-                    <p class="mt-3">{{ product.description }}</p>
+                    <p class="mt-3">{{ product.description | linebreaks   }}</p>
 
                     <p>
                         {% if album %}
