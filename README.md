@@ -190,8 +190,8 @@ I used Nanum Myeongjo as a normal font to support the primary font. This font is
 
 
 ### Wireframing
-As tablet layout is similar to mobile phone layout, tablet is omitted on this wireframe.
-https://github.com/machikolacey/composermlacey/blob/master/wireframes/wireframe.pdf
+As tablet layout is similar to mobile phone layout, tablet is omitted on this wireframe. 
+The wireframe file is found [here](https://github.com/machikolacey/composermlacey/blob/master/wireframes/wireframe.pdf).
 
 
 # Features
