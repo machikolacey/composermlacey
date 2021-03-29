@@ -207,36 +207,46 @@ This website has these main features.
 - This website has shopping functionality, so admin can add products, an user can see the product pages, add to cart, go to checkout to make a payment.
 
 #### Category page
+This page allows an user to browse products visually, and click on the product to see more details.
 <img src="https://res.cloudinary.com/machikolacey/image/upload/v1616963106/milestone4/all-products-page_fpythf.png" />
 
+
+
+#### Product page
+This page gives details of the product. If it's an event, it shows date and time, if it's an album, it displays runtime and song titles.
+<img src="https://res.cloudinary.com/machikolacey/image/upload/v1617057226/milestone4/shop_fxre9z.png" />
+
+
 #### Cart (bag) page
+This page displays product items in the shopping bag, allows an user to change quantity, or remove items.
 <img src="https://res.cloudinary.com/machikolacey/image/upload/v1616963393/milestone4/bag-page_cyvl9l.png" />
 
 #### Checkout page
-<img src="https://res.cloudinary.com/machikolacey/image/upload/v1616963494/milestone4/checkout_c3le4c.png" />
+This page allows an user to add their details and card details for payment.
+<img src="https://res.cloudinary.com/machikolacey/image/upload/v1617057137/milestone4/checkout_1_ldfnd2.png" />
 
 #### Sprite payment integration
 This website is using Sprite, for payment integration.
 <img src="https://res.cloudinary.com/machikolacey/image/upload/v1616963564/milestone4/sprite_cgawd3.png" />
 
 ### Reviews
-- This website allows a logged in user to add reviews on products, using a form. A review will be added as a record on reviews table on database.
+This website allows a logged in user to add reviews on products, using a form. A review will be added as a record on reviews table on database.
 <img src="https://res.cloudinary.com/machikolacey/image/upload/v1616543550/milestone4/feature-4_l7pjnk.png" />
 
 
 ## Additional Features
 
 ## Extra images - automatic photo gallery
-- An admin can also add extra images, which makes the image area to an image gallery automatically.
+-An admin can also add extra images, which makes the image area to an image gallery automatically.
  <img src="https://res.cloudinary.com/machikolacey/image/upload/v1616543832/milestone4/feature-10_doemvi.png" />
 
 
 ## Homepage banner
-- An admin can add advert with a page link through admin.
+An admin can add advert with a page link through admin.
 <img src="https://res.cloudinary.com/machikolacey/image/upload/v1616543996/milestone4/feature-5_gh6frg.png" />
 
-## Youtube videos 
-- An admin can add sample youtube link through admin, to display a video on 'Sample Videos' page, and also Home page.
+## Embed videos 
+An admin can add sample youtube link through admin, to display a video on 'Sample Videos' page, and also Home page.
 <img src="https://res.cloudinary.com/machikolacey/image/upload/v1616544117/milestone4/feature-7_krlmhl.png" />
 
 
