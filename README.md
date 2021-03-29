@@ -653,4 +653,5 @@ All texts are written by Machiko Lacey-Kimura.
 
 ## media
 
-- The videos used in this website are taken from: https://www.youtube.com/
+- The videos used in this website are taken from [Youtube](https://www.youtube.com/)
+- This website is using images uploaded to [Cloudinary](https://cloudinary.com/)
