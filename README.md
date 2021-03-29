@@ -247,7 +247,7 @@ An admin can add advert with a page link through admin.
 
 ## Embed videos 
 An admin can add sample youtube link through admin, to display a video on 'Sample Videos' page, and also Home page.
-<img src="https://res.cloudinary.com/machikolacey/image/upload/v1616544117/milestone4/feature-7_krlmhl.png" />
+<img src="https://res.cloudinary.com/machikolacey/image/upload/v1617058063/milestone4/embed_k4s9jn.png" />
 
 
 
