@@ -6,7 +6,6 @@
 |:------------- |:---------------|:--------------------|
 | I would like to find out up-coming events and recent albums on top of the homepage | so I can find out up-coming events and recent albums at a glance   | I could find homepage banner easily to find out up-coming events |
 | I would like to navigate to the destination page smoothly | so I can find the information I want easily  |   The navigation is easy to use, and nav links are well-structured to find information I want               |
-| I would like to find schedule easily | so I can find event dates in no time   |  result|
 | I would like to find out what is the artist's motivation on her composition | so I can see if her music suits my interest     |  Under 'about' dropdown there are links to information pages, and easy to find out about the composition |
 | I would like to find out about genre of the artist's songs  | so I can see if her music suits my interest |  'Neo Classical Piano' page gives a good information to know the genre |
 | I would like to listen to samples of her songs	  | so I can see if the music feeds my interest |  On 'Sample videos' page I could listen to samples easily.  |
@@ -14,7 +13,7 @@
 | I would like to find out venue, date, time and duration of the event  | so I can find out if I can attend it. |  I could find event details on event product page |
 | I would like to purchase the artist's products and event tickets  | so I can enjoy her music. |  I could purchase the CD album through product, cart and checkout |
 | I would like to write a review on my purchased products  | so I can share my thoughts on my purchased products.   |  I could find review section on product page and add a review when logged in |
-| 	I would like to be able to purchase the products securely  | so I feel safe through payment section.|  I could feel safe on payment page, using Stripe |
+| I would like to be able to purchase the products securely  | so I feel safe through payment section.|  I could feel safe on payment page, using Stripe |
 | I would like to be able to register on this website  | so I can purchase easily in the future. |  I could register an account at ease |
 | I would like to be able to reset my password	  | so I can login again in case I forget my password|  I could reset my password at ease |
 | I would like to be able to see my order history	  | so I can see what I purchased |  I could see my order history on profile page when logged in |
@@ -150,3 +149,43 @@ Other errors are coming from Font Awesome, Bootstrap which is recommended by Cod
 | Issue    | How I fixed it  |
 |:------------- |:---------------|
 |Duplicate key 'dots'.| Removed duplicated key|
+
+
+
+## Responsiveness
+
+
+I have tested the site on Google Chrome Responsive Viewer, Kindle Fire 8, Sumsung A21s.
+
+## User stories tested
+### Visitor on tablet or mobile phones
+| User Story    | Test Result | 
+|:------------- |:---------------|
+| I would like to find out up-coming events and recent albums on top of the homepage | Passed |
+| I would like to navigate to the destination page smoothly | Passed |
+| I would like to find out what is the artist's motivation on her composition | Passed|
+| I would like to find out about genre of the artist's songs  | Passed |
+| I would like to listen to samples of her songs	  |  Passed |
+| I would like to see how album jackets look like	  | Passed |
+| I would like to find out date and time of the event  | Passed |
+| I would like to purchase the artist's products and event tickets  | Passed |
+| I would like to write a review on my purchased products  | Passed |
+| I would like to be able to purchase the products securely  | Passed |
+| I would like to be able to register on this website  |Passed  |
+| I would like to be able to reset my password	  | Passed |
+| I would like to be able to see my order history	  |Passed |
+| I would like to be able to update the account details	  | Passed|
+
+
+### Site Owner on tablet or mobile phones
+| User Story    | Test Result |
+|:------------- |:---------------|:--------------------|
+| I would like to be able to add a product easily | Passed |
+| I would like to be able to edit a product easily	 | Passed |
+| I would like to be able to delete a product	 | Passed |
+| I would like to be able to add album songs |Passed |
+| I would like to be able to add event venue, date, time and duration | Passed |
+| I would like to be able to modify event details	 | Passed |
+| I would like to be able to update artist information pages | Passed |
+
+
