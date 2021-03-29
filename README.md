@@ -641,7 +641,7 @@ python manage.py createsuperuser
 
 # Defensive Features
 
--   This website has quantity limit on product app, so an user is not able to add more then 30 products.
+-   This website has quantity limit on product app (0 - 30). If an user change minimun length or max length on front-end and enters a number out of range, add_to_bag function will limit the number within the range.
 
 # Credits
 
