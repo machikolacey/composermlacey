@@ -179,7 +179,7 @@ I have tested the site on Google Chrome Responsive Viewer, Kindle Fire 8, Sumsun
 
 ### Site Owner on tablet or mobile phones
 | User Story    | Test Result |
-|:------------- |:---------------|:--------------------|
+|:------------- |:---------------|
 | I would like to be able to add a product easily | Passed |
 | I would like to be able to edit a product easily	 | Passed |
 | I would like to be able to delete a product	 | Passed |
