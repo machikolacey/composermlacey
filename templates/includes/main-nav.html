@@ -5,17 +5,14 @@
                 Shop
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="clothing-link">
+                <a href="{% url 'products' %}" class="dropdown-item">All Products</a>
                 <a href="{% url 'products' %}?category=cd_albums" class="dropdown-item">CD Albums</a>
                 <a href="{% url 'products' %}?category=event_tickets" class="dropdown-item">Event Tickets</a>
                 <a href="{% url 'products' %}?sort=price&direction=asc" class="dropdown-item">By Price</a>
                 <a href="{% url 'products' %}?sort=rating&direction=desc" class="dropdown-item ">By Rating</a>
                 <a href="{% url 'products' %}?sort=category&direction=asc" class="dropdown-item ">By Category</a>
-                <a href="{% url 'products' %}" class="dropdown-item">All Products</a>
             </div>
-
         </li>
-
-
         <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link mr-5" href="#" id="specials-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 About
