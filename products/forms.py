@@ -22,9 +22,22 @@ class ProductForm(forms.ModelForm):
 
 
 class ReviewForm(forms.ModelForm):
+  
+    comment = forms.CharField(
+            label="Comment",
+            min_length=10,
+            widget=forms.Textarea(
+                attrs={
+                    "rows": 2,
+                }
+            ),
+        )
 
-      class Meta:
+    class Meta:
 
         model = Review
+
+
+
         fields = ("comment", )
         

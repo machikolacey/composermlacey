@@ -78,6 +78,8 @@ def product_detail(request, product_id):
         'product': product,
         'reviews': reviews,
         'album': album,
+
+
     }
 
     return render(request, 'products/product_detail.html', context)
@@ -200,7 +202,8 @@ def edit_review(request, product_id, review_id):
             else:
                 messages.error(
                                 request, (
-                                            'Failed to update review. Please ensure the form is valid.'
+                                            'Failed to update review. '
+                                            'Please ensure the form is valid.'
                                          )
                                 )
                 return redirect('product_detail', product_id)

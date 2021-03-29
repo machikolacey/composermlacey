@@ -182,7 +182,7 @@
             <h2>Write your review</h2>
                 <form action="{% url 'add_review' product.pk %}" method="POST">
                 {% csrf_token %}                                               
-                <textarea name="comment"></textarea>
+                <textarea name="comment" minlength="10" required></textarea>
                 <input type="submit" class="btn btn-primary" value="Submit">
             </form>
         </div>
