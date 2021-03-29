@@ -46,7 +46,7 @@
           
                 {% endif %}
                     {% if product.event.event_title %}
-                        <h3 class="sub-title"> {{ product.event.event_title }} </h3>
+                        <h3 class="sub-title"> {{ product.event.event_title  | linebreaks  }} </h3>
                     {% endif %}
                     {% if product.event.start_date_time   %}
                         <h3 class="event-date"> 
