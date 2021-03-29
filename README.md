@@ -231,7 +231,7 @@ This website is using Sprite, for payment integration.
 
 ### Reviews
 This website allows a logged in user to add reviews on products, using a form. A review will be added as a record on reviews table on database.
-<img src="https://res.cloudinary.com/machikolacey/image/upload/v1616543550/milestone4/feature-4_l7pjnk.png" />
+<img src="https://res.cloudinary.com/machikolacey/image/upload/v1617057958/milestone4/reviews_1_uqxnce.png" />
 
 
 ## Additional Features
