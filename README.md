@@ -534,17 +534,22 @@ pip3 install -r requirements.txt
 ```
 6. Create these environment variables:
 
-| Variables     | Value |
-|:------------- |:-------------|
-| STRIPE_PUBLIC_KEY |  your_value |  *https://dashboard.stripe.com/test/apikeys
-| EMAIL_HOST_USER |  your_value |
-| SECRET_KEY |  your_value |         *https://djecrety.ir
-| STRIPE_WH_SECRET |  your_value |   *https://dashboard.stripe.com/test/apikeys
-
+| Config Vars      | Value |
+|:------------- |:------------- |
+| AWS_ACCESS_KEY_ID | your_value | * https://console.aws.amazon.com
+| AWS_SECRET_ACCESS_KEY | your_value | * https://console.aws.amazon.com
+| DATABASE_URL | your_value | * Your Postgres database URL
+| EMAIL_HOST_PASS | your_value | 
+| EMAIL_HOST_USER | your_value | 
+| SECRET_KEY | your_value | *https://djecrety.ir
+| STRIPE_PUBLIC_KEY | your_value | *https://dashboard.stripe.com/test/apikeys
+| STRIPE_SECRET_KEY | your_value | *https://dashboard.stripe.com/test/apikeys
+| STRIPE_WH_SECRES | your_value |   *https://dashboard.stripe.com/test/apikeys
+| USE_AWS | your_value |    * https://console.aws.amazon.com
 
 7. Replace your_value with your values
 
-8. On your terminal, run this code below to test migration
+8. On your CLI, run this code below to test migration
 
 ```bash
 
@@ -570,19 +575,21 @@ python manage.py createsuperuser
 
 ```
 
-11. Run this code to run server on local:
+11. Run this code to run server on local :
 
 ```bash
+
 python manage.py runserver
- ```
+
+```
 12. If no errors, the terminal will provide the link to the local server. Click on the link to open the website.
 
 13. Go to https://your-local-url.com/admin to find out your superuser login is working.
 
-### Runnin on your local environment
+### Runnin on your local environment (PC/Mac)
 
 
-1. Clone this reponsitory with this code below:
+1. On top-righ corner of this page, find 'Code' button to open a dropdown list of links. Download zipped files into your local folder. Alternatively, navigate to your chosen folder on your CLI and run this command:
 
 ```bash
 
@@ -590,7 +597,7 @@ git clone https://github.com/machikolacey/composermlacey
 
 ```
 
-2. In your chosen IDE, open your folder and create a project
+2. In your chosen IDE, open the folder
 
 
 3. Create a virtual environment to load these packages.
@@ -618,19 +625,38 @@ source venv/Scripts/activate
 pip3 install -r requirements.txt
 
 ```
-6. Create these environment variables:
-
-| Variables     | Value |
-|:------------- |:-------------|
-| STRIPE_PUBLIC_KEY |  your_value |  *https://dashboard.stripe.com/test/apikeys
-| EMAIL_HOST_USER |  your_value |
-| SECRET_KEY |  your_value |         *https://djecrety.ir
-| STRIPE_WH_SECRET |  your_value |   *https://dashboard.stripe.com/test/apikeys
+6. In the root of your project, create a file 'env.py' abd add environmental variables. The format will be like this below:
 
 
-7. Replace your_value with your values
+ ```bash
 
-8. On your terminal, run this code below to test migration
+import os
+
+os.environ["VARIABLE_NAME"] = "YOUR_VALUE"
+
+```
+
+7. Add 'env.py' onto your .gitignore file.
+
+
+8. Replace your_value with your values
+
+| Config Vars      | Value |
+|:------------- |:------------- |
+| AWS_ACCESS_KEY_ID | your_value | * https://console.aws.amazon.com
+| AWS_SECRET_ACCESS_KEY | your_value | * https://console.aws.amazon.com
+| DATABASE_URL | your_value | * Your Postgres database URL
+| EMAIL_HOST_PASS | your_value | 
+| EMAIL_HOST_USER | your_value | 
+| SECRET_KEY | your_value | *https://djecrety.ir
+| STRIPE_PUBLIC_KEY | your_value | *https://dashboard.stripe.com/test/apikeys
+| STRIPE_SECRET_KEY | your_value | *https://dashboard.stripe.com/test/apikeys
+| STRIPE_WH_SECRES | your_value |   *https://dashboard.stripe.com/test/apikeys
+| USE_AWS | your_value |    * https://console.aws.amazon.com
+
+
+
+9. On your terminal, run this code below to test migration
 
 ```bash
 
@@ -638,7 +664,7 @@ python3 manage.py migrate --plan
 
 ```
 
-9. If there was any errors, find out solutions on [Python's documentation](https://docs.djangoproject.com/en/3.1/ref/django-admin/)
+10. If there was any errors, find out solutions on [Python's documentation](https://docs.djangoproject.com/en/3.1/ref/django-admin/)
    If there was no issues found, run this code below:
 
 
@@ -647,7 +673,7 @@ python3 manage.py migrate --plan
 python3 manage.py migrate 
 
 ```
-10. If there was any errors, find out solutions on [Python's documentation](https://docs.djangoproject.com/en/3.1/ref/django-admin/)
+11. If there was any errors, find out solutions on [Python's documentation](https://docs.djangoproject.com/en/3.1/ref/django-admin/)
     If there was no issues found, run this code below to create a superuser (Your admin account). 
 
 ```bash
@@ -656,14 +682,17 @@ python manage.py createsuperuser
 
 ```
 
-11. Run this code to run server on local:
+12. Run this code to run server on local:
 
 ```bash
-python manage.py runserver
- ```
-12. If no errors, the terminal will provide the link to the local server. Click on the link to open the website.
 
-13. Go to https://your-local-url.com/admin to find out your superuser login is working.
+python manage.py runserver
+
+ ```
+
+13. If no errors, the terminal will provide the link to the local server. Click on the link to open the website.
+
+14. Go to https://your-local-url.com/admin to find out your superuser login is working.
 
 ## Remote Deployment (Run the project on Heroku.com)
 
@@ -688,7 +717,15 @@ If you want to add it to your Heroku account, follow the instructions below:
 
 6. Replace your_value with your values
 
-7. Run this code below to migrate database:
+7. On your terminal, run this code below to test migration
+
+```bash
+
+python3 manage.py migrate --plan
+
+```
+
+8. If there was no errors, run this code below to migrate database:
 
 ```bash
 
@@ -696,7 +733,7 @@ python3 manage.py migrate
 
 ```
 
-8. If there was any errors, find out solutions on [Python's documentation](https://docs.djangoproject.com/en/3.1/ref/django-admin/)
+9. If there was any errors, find out solutions on [Python's documentation](https://docs.djangoproject.com/en/3.1/ref/django-admin/)
    If there was no issues found, run this code below to create a superuser (Your admin account). 
 
 ```bash
@@ -705,7 +742,7 @@ python manage.py createsuperuser
 
 ```
 
-9. Go back to your Gitpod workspace, run this code below for the first deployment on Heroku:
+10. Go back to your Gitpod workspace, run this code below for the first deployment on Heroku:
 
 ```bash
     git init
@@ -713,17 +750,17 @@ python manage.py createsuperuser
     git push -u origin
 ``` 
 
-10.  On your Heroku app, click on the "Deploy" tab, in 'Deployment method' select GitHub.
+11.  On your Heroku app, click on the "Deploy" tab, in 'Deployment method' select GitHub.
 
-11. Find your Github repository and click on it to connect to your repo.
+12. Find your Github repository and click on it to connect to your repo.
 
-12. In "Manual deploy" section, make sure your repo branch is chosen, click on "Deploy Branch".
+13. In "Manual deploy" section, make sure your repo branch is chosen, click on "Deploy Branch".
 
-13. In "Automatic deploys" section, enable automatic deploy, if you choose to.
+14. In "Automatic deploys" section, enable automatic deploy, if you choose to.
 
-14. On the top-right corner on the app page, find "Open App" button to open your app.
+15. On the top-right corner on the app page, find "Open App" button to open your app.
 
-15. Go to https://your-app-name-herokuapp.com/admin to find out your superuser login is working.
+16. Go to https://your-app-name-herokuapp.com/admin to find out your superuser login is working.
 
 # Defensive Features
 
@@ -742,3 +779,4 @@ All product images, slider banners are created by Machiko Lacey-Kimura.
 
 - The videos used in this website are taken from [Youtube](https://www.youtube.com/)
 - This website is using images uploaded to [Cloudinary](https://cloudinary.com/)
+- The colour scheme is generated by [Colours](https://coolors.co/)
