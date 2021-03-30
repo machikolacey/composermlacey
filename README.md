@@ -500,17 +500,17 @@ Please click on [this link to see the Testing section](Testing.md).
 This project was developed on Github, using Gitpod as IDE. It has only master branch. This is pushed and deployed onto Heroku.
 
 
-## Requirements
+## Preparation
 
- - [python 3](https://www.python.org/)
- - [PIP](https://pip.pypa.io/en/stable/installing/)
- - [Git](https://github.com/)
- - [AWS-S3](https://docs.aws.amazon.com/) 
- - [S3 Bucket](https://docs.aws.amazon.com/) 
- - [Stripe](https://stripe.com/) 
+ - Install [python 3](https://www.python.org/) on your local environment
+ - Install [PIP](https://pip.pypa.io/en/stable/installing/) on your local environment
+ - Register with [Git](https://github.com/) if you don't have an account and login before cloning
+ - Register with [AWS-S3](https://docs.aws.amazon.com/) if you don't have an account and make sure you can use [S3 Bucket](https://docs.aws.amazon.com/). Create your user group with a policy, attach it to your bucket. Make permission keys ready.
+ - Register with [Stripe](https://stripe.com/) if you don't have an account, activate your account, get your API keys ready
 
 
 ## To run this project on your local repository
+### Runnin on Gitpod
 
 This project will be deployed following these steps:
 
@@ -529,6 +529,92 @@ git remote set-url origin https://github.com/USERNAME/REPO.git
 5. Run this command below to install all the modules on requirements.txt file:
 
  ```bash
+pip3 install -r requirements.txt
+
+```
+6. Create these environment variables:
+
+| Variables     | Value |
+|:------------- |:-------------|
+| STRIPE_PUBLIC_KEY |  your_value |  *https://dashboard.stripe.com/test/apikeys
+| EMAIL_HOST_USER |  your_value |
+| SECRET_KEY |  your_value |         *https://djecrety.ir
+| STRIPE_WH_SECRET |  your_value |   *https://dashboard.stripe.com/test/apikeys
+
+
+7. Replace your_value with your values
+
+8. On your terminal, run this code below to test migration
+
+```bash
+
+python3 manage.py migrate --plan
+
+```
+
+9. If there was any errors, find out solutions on [Python's documentation](https://docs.djangoproject.com/en/3.1/ref/django-admin/)
+   If there was no issues found, run this code below:
+
+
+```bash
+
+python3 manage.py migrate 
+
+```
+10. If there was any errors, find out solutions on [Python's documentation](https://docs.djangoproject.com/en/3.1/ref/django-admin/)
+    If there was no issues found, run this code below to create a superuser (Your admin account). 
+
+```bash
+
+python manage.py createsuperuser
+
+```
+
+11. Run this code to run server on local:
+
+```bash
+python manage.py runserver
+ ```
+12. If no errors, the terminal will provide the link to the local server. Click on the link to open the website.
+
+13. Go to https://your-local-url.com/admin to find out your superuser login is working.
+
+### Runnin on your local environment
+
+
+1. Clone this reponsitory with this code below:
+
+```bash
+
+git clone https://github.com/machikolacey/composermlacey
+
+```
+
+2. In your chosen IDE, open your folder and create a project
+
+
+3. Create a virtual environment to load these packages.
+Please see [Python's official documentation](https://www.python.org/) for more details.
+
+4. Run these commands to create your virtual environment:
+Please see [Python's official  documentation](https://docs.python.org/3/library/venv.html) for more details.
+
+```bash
+
+py .venv venv
+
+```
+
+```bash
+
+source venv/Scripts/activate
+
+
+```
+5. Run this command below to install all the modules on requirements.txt file:
+
+ ```bash
+
 pip3 install -r requirements.txt
 
 ```
