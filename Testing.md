@@ -149,7 +149,19 @@ Other errors are coming from Font Awesome, Bootstrap which is recommended by Cod
 
 | Issue    | How I fixed it  |
 |:------------- |:---------------|
-|Duplicate key 'dots'.| Removed duplicated key|
+|Duplicate key 'dots'| Removed duplicated key|
+|Missing semicolon| Added semicolon|
+
+| File    | Jshint validation test and fix  |
+|:------------- |:---------------|
+|static/js/bag_script.js|	done|
+|static/js/checkout.js|	done|
+|static/js/custom.js|	done|
+|static/js/edit_product.js|	done|
+|static/js/home.js|	done|
+|static/js/product.js|	done|
+|static/js/quantity_input_script.js|	done|
+|static/js/scrollto.js|	done|
 
 
 
