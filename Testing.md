@@ -55,6 +55,7 @@
 |The navigator is overflowing on Slick slider| Removed navigator so it won't overflow the viewport|
 |When signed up, confirmation email was not received| Removed a config var on Heroku |
 |On mobile phone, the toast message is pointing nowhere|Moved the toast message to left so it looks left aligned|
+|When added to bag, it says 'Go to secure checkout' which actually linking to basket page|Reworded 'Go to secure checkout' to 'Go to your bag' on toast message|
 
 
 
