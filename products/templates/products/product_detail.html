@@ -51,32 +51,29 @@
                     {% if product.event.start_date_time   %}
                         <h3 class="event-date"> 
                             {{ product.event.start_date_time | date:'d/m/Y G:i' }}
-                         </h3>
+                        </h3>
                     {% endif %}
                     
                     <p class="lead mb-0 text-left font-weight-bold">&pound;{{ product.price }}</p>
                         {% if product.category %}
-                        <p class="small mt-1 mb-0">
-                            <a class="text-muted" href="{% url 'products' %}?category={{ product.category.name }}">
-                                <i class="fas fa-tag mr-1"></i>{{ product.category.friendly_name }}
-                            </a>
-                        </p>
+                            <p class="small mt-1 mb-0">
+                                <a class="text-muted" href="{% url 'products' %}?category={{ product.category.name }}">
+                                    <i class="fas fa-tag mr-1"></i>{{ product.category.friendly_name }}
+                                </a>
+                            </p>
                         {% endif %}
-                    {% if product.rating %}
-                        <small class="text-muted"><i class="fas fa-star mr-1"></i>{{ product.rating }} / 5</small>
-                    {% else %}
-                        <small class="text-muted">No Rating</small>
-                    {% endif %}
-
-   
-                    {% if request.user.is_superuser %}
-                        <ul>
-                           <li  class="d-inline"><a href="{% url 'edit_product' product.id %}">Edit</a></li> 
-                           <li  class="d-inline"><a class="text-danger" href="{% url 'delete_product' product.id %}">Delete</a></li>
-                        </ul>
-                    {% endif %}
+                        {% if product.rating %}
+                            <small class="text-muted"><i class="fas fa-star mr-1"></i>{{ product.rating }} / 5</small>
+                        {% else %}
+                            <small class="text-muted">No Rating</small>
+                        {% endif %}
+                        {% if request.user.is_superuser %}
+                            <ul>
+                            <li  class="d-inline"><a href="{% url 'edit_product' product.id %}">Edit</a></li> 
+                            <li  class="d-inline"><a class="text-danger" href="{% url 'delete_product' product.id %}">Delete</a></li>
+                            </ul>
+                        {% endif %}
                     <p class="mt-3">{{ product.description | linebreaks   }}</p>
-
                     <p>
                         {% if album %}
                            <h3>Songs</h3>
@@ -191,14 +188,10 @@
      <p>To write a review, you will have to <a href="{% url 'account_login' %}">login</a>. If you don't have an account, please <a href="{% url 'account_signup' %}">register</a> from here.</p>
     {% endif %}
 </div>
-
-    </div>
-
-
-
+</div>
 {% endblock %}
 
 {% block postloadjs %}
 {{ block.super }}
-{% include 'products/includes/quantity_input_script.html' %}
+    <script src="{% static 'js/quantity_input_script.js' %}"></script>
 {% endblock %}

@@ -24,10 +24,11 @@
     {% block extra_css %}
     {% endblock %}
     {% block extra_js %}
-           <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <!-- This js file link is added in head, as it's needed for Slick Slider -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     {% endblock %}
-    <link rel="shortcut icon" href="https://res.cloudinary.com/machikolacey/image/upload/v1617044436/milestone4/favicon_w1mkfw.ico" />
-    <title>Composer MLK {% block extra_title %}{% endblock %}</title>
+        <link rel="shortcut icon" href="https://res.cloudinary.com/machikolacey/image/upload/v1617044436/milestone4/favicon_w1mkfw.ico" />
+        <title>Composer MLK {% block extra_title %}{% endblock %}</title>
   </head>
   <body>
    {% include 'includes/header.html' %}
