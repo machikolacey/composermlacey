@@ -263,7 +263,7 @@ An admin can add sample youtube link through admin, to display a video on 'Sampl
 - [Bootstrap](https://getbootstrap.com/docs/4.0/getting-started/introduction/)
 - [JavaScript](https://www.javascript.com/)
 - [jQuery](https://jquery.com/)
-- [Font Awesome 6](https://fontawesome.com/)
+- [Font Awesome](https://fontawesome.com/)
 - [Google Fonts](https://fonts.google.com/)
 - [Slick Slider](https://kenwheeler.github.io/slick/)
 
@@ -736,6 +736,7 @@ python manage.py createsuperuser
 Photos are downloaded from iStockphoto, using my account. I designed banner and uploaded to AWS S3 through Django admin.
 This project is using icons from FontAwesome.
 All texts are written by Machiko Lacey-Kimura.
+All product images, slider banners are created by Machiko Lacey-Kimura.
 
 ## media
 
