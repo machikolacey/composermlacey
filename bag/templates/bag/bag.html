@@ -120,6 +120,6 @@
 {% block postloadjs %}
 {{ block.super }}
     <script src="{% static 'js/scrollto.js' %}"></script>
-    {% include 'products/includes/quantity_input_script.html' %}
-    {% include 'bag/includes/bag_script.html' %}
+    <script src="{% static 'js/quantity_input_script.js' %}"></script>
+    <script src="{% static 'js/bag_script.js' %}"></script>
 {% endblock %}
