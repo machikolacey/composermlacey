@@ -582,7 +582,7 @@ python manage.py createsuperuser
 python manage.py runserver
 
 ```
-12. If no errors, the terminal will provide the link to the local server. Click on the link to open the website.
+12. If no errors, the CLI will provide the link to the local server. Click on the link to open the website.
 
 13. Go to https://your-local-url.com/admin to find out your superuser login is working.
 
@@ -656,7 +656,7 @@ os.environ["VARIABLE_NAME"] = "YOUR_VALUE"
 
 
 
-9. On your terminal, run this code below to test migration
+9. On your CLI, run this code below to test migration
 
 ```bash
 
@@ -690,7 +690,7 @@ python manage.py runserver
 
  ```
 
-13. If no errors, the terminal will provide the link to the local server. Click on the link to open the website.
+13. If no errors, the CLI will provide the link to the local server. Click on the link to open the website.
 
 14. Go to https://your-local-url.com/admin to find out your superuser login is working.
 
@@ -717,7 +717,7 @@ If you want to add it to your Heroku account, follow the instructions below:
 
 6. Replace your_value with your values
 
-7. On your terminal, run this code below to test migration
+7. On your CLI, run this code below to test migration
 
 ```bash
 
