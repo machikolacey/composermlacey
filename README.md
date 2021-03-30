@@ -166,10 +166,10 @@ I added pink and green as an accent, which depicts the new story of the artist's
 
 ![Color Palette](https://res.cloudinary.com/machikolacey/image/upload/v1614203762/milestone4/colour_scheme_xfrdp0.png)
 
-- Primary colour:![#14110f](https://via.placeholder.com/15/14110f/000000?text=+) `#14110f`
-- Secondary colour: ![#d9c5b2](https://via.placeholder.com/15/d9c5b2/000000?text=+) `#d9c5b2`
-- Main font colour: ![#34312d](https://via.placeholder.com/15/34312d/000000?text=+) `#34312d`
-- Secondary font colour: ![#f26a8d](https://via.placeholder.com/15/f26a8d/000000?text=+) `#f26a8d`
+- Primary colour:![#14110f](https://res.cloudinary.com/machikolacey/image/upload/v1617131546/milestone4/primary-colour_fxrx2k.png)
+- Secondary colour: ![#d9c5b2](https://res.cloudinary.com/machikolacey/image/upload/v1617131546/milestone4/primary-colour_fxrx2k.png)
+- Main font colour: ![#34312d](https://res.cloudinary.com/machikolacey/image/upload/v1617131539/milestone4/main-font-colour_tjeoqy.png)
+- Secondary font colour: ![#f26a8d](https://res.cloudinary.com/machikolacey/image/upload/v1617131535/milestone4/secondary-font-colour_imbm4d.png)
 
 
 #### Icons <!-- omit in toc -->
