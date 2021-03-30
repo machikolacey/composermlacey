@@ -601,6 +601,10 @@ input[name='q']::placeholder {
     color:#222;
 }
 
+.order-confirmation-wrapper{
+    border: 2px solid #f26a8d !important;
+    margin: 0 0 10px;
+}
 
 @media (min-width: 1040px) {
        .homepage-banner .pc{
