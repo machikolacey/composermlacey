@@ -17,38 +17,35 @@
             </div>
             <div class="col-xs-12 col-sm-3 my-auto py-1 py-lg-0 pc">
                 <ul class="list-inline list-unstyled text-center text-lg-right my-0">
-                    
-                            {% if request.user.is_authenticated %}
-                    
-                                    <li class="list-inline-item  account">
-                                    <a href="{% url 'profile' %}" class="nav-link">Profile</a>
-                                </li>
-                                <li class="list-inline-item  account">
-                                <a href="{% url 'account_logout' %}" class=" nav-link">Logout</a>
-                                </li>
-                            {% else %}
-                                <li class="list-inline-item  account">
-                                    <a href="{% url 'account_signup' %}" class=" nav-link">Register</a>
-                                </li>
-                            <li class="list-inline-item  account">
-                                <a href="{% url 'account_login' %}" class=" nav-link">Login</a>
-                            </li>
-                            {% endif %}
-                                        
-                            <li class="list-inline-item cart">
-                                <a class="{% if grand_total %}text-info font-weight-bold {% endif %}" href="{% url 'view_bag' %}">
-                                    <div class="text-center">
-                                        <div><i class="fas fa-shopping-bag"></i></div>
-                                        <p class="my-0">
-                                            {% if grand_total %}
-                                                &pound;{{ grand_total|floatformat:2 }}
-                                            {% else %}
-                                                &pound;0.00
-                                            {% endif %}
-                                        </p>
-                                    </div>
-                                </a>
-                            </li>
+                    {% if request.user.is_authenticated %}
+                        <li class="list-inline-item  account">
+                            <a href="{% url 'profile' %}" class="nav-link">Profile</a>
+                        </li>
+                        <li class="list-inline-item  account">
+                        <a href="{% url 'account_logout' %}" class=" nav-link">Logout</a>
+                        </li>
+                    {% else %}
+                        <li class="list-inline-item  account">
+                            <a href="{% url 'account_signup' %}" class=" nav-link">Register</a>
+                        </li>
+                    <li class="list-inline-item  account">
+                        <a href="{% url 'account_login' %}" class=" nav-link">Login</a>
+                    </li>
+                    {% endif %}     
+                    <li class="list-inline-item cart">
+                        <a class="{% if grand_total %}text-info font-weight-bold {% endif %}" href="{% url 'view_bag' %}">
+                            <div class="text-center">
+                                <div><i class="fas fa-shopping-bag"></i></div>
+                                <p class="my-0">
+                                    {% if grand_total %}
+                                        &pound;{{ grand_total|floatformat:2 }}
+                                    {% else %}
+                                        &pound;0.00
+                                    {% endif %}
+                                </p>
+                            </div>
+                        </a>
+                    </li>
                 </ul>
             </div>
         </div>

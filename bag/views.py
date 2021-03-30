@@ -70,6 +70,10 @@ def adjust_bag(request, item_id):
 
     product = get_object_or_404(Product, pk=item_id)
     quantity = int(request.POST.get('quantity'))
+    if quantity > 30:
+        quantity = 30
+    if quantity < 0:
+        quantity = 0
     size = None
     if 'product_size' in request.POST:
         size = request.POST['product_size']

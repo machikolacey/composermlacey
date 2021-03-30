@@ -26,27 +26,25 @@
          <li class="nav-item">
             <a class="logo-font font-weight-bold nav-link " href="/about/sample-videos">Sample Videos</a> 
          </li>
-        {% if request.user.is_authenticated %}
-                    
+        {% if request.user.is_authenticated %}        
+            <li class="nav-item mobile">
+                <a href="{% url 'profile' %}" class="nav-link">Profile</a>
+            </li>
+            <li class="nav-item mobile">
+                <a href="{% url 'account_logout' %}" class=" nav-link">Logout</a>
+            </li>
+        {% else %}
+            <li class="nav-item mobile">
+                <a href="{% url 'account_signup' %}" class=" nav-link">Register</a>
+            </li>
+            <li class="nav-item mobile">
+                <a href="{% url 'account_login' %}" class=" nav-link">Login</a>
+            </li>
+        {% endif %}              
         <li class="nav-item mobile">
-            <a href="{% url 'profile' %}" class="nav-link">Profile</a>
+            <a class="nav-link" href="{% url 'view_bag' %}">
+            Your Bag
+            </a>
         </li>
-        <li class="nav-item mobile">
-            <a href="{% url 'account_logout' %}" class=" nav-link">Logout</a>
-        </li>
-    {% else %}
-        <li class="nav-item mobile">
-            <a href="{% url 'account_signup' %}" class=" nav-link">Register</a>
-        </li>
-    <li class="nav-item mobile">
-        <a href="{% url 'account_login' %}" class=" nav-link">Login</a>
-    </li>
-    {% endif %}
-                
-    <li class="nav-item mobile">
-        <a class="nav-link" href="{% url 'view_bag' %}">
-         Your Bag
-        </a>
-    </li>
     </ul>
 </div>
