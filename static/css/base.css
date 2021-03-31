@@ -597,7 +597,7 @@ input[name='q']::placeholder {
 }
 
 #toTop {
-    padding: 5px 3px;
+    padding: 5px 10px;
     background: #f26a8d ;
     color: #fff;
     position: fixed;
