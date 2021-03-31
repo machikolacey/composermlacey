@@ -602,6 +602,17 @@ input[name='q']::placeholder {
         display:block;
     }
 }
+
+@media (max-width: 1200px) {
+    .logo-font {
+        font-size: 1.1rem;
+    }
+    .nav-link {
+        font-size: 0.7rem;
+        font-weight: 700;
+    }
+}
+
 @media (max-width: 1039px) {
     .pc{
         display:none;
@@ -614,11 +625,18 @@ input[name='q']::placeholder {
     .homepage-banner .tablet, .homepage-banner .mobile{
         display:none;
     }
-
+    .navbar-brand{
+        display:none;
+    }
 }
 @media (max-width: 1023px) {
     .navbar{
         display:inline-block;
+    }
+    .navbar-brand{
+        text-transform:uppercase;
+        font-family: 'Nanum Gothic', sans-serif;
+        float:right;
     }
 }
 
