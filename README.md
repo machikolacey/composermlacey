@@ -242,12 +242,18 @@ This website allows a logged in user to add reviews on products, using a form. A
 
 
 ## Homepage banner
-An admin can add advert with a page link through admin.
+An admin can add advert with a page link through admin. This is using Javascript code.
 <img src="https://res.cloudinary.com/machikolacey/image/upload/v1616543996/milestone4/feature-5_gh6frg.png" />
 
 ## Embed videos 
 An admin can add sample youtube link through admin, to display a video on 'Sample Videos' page, and also Home page.
 <img src="https://res.cloudinary.com/machikolacey/image/upload/v1617058063/milestone4/embed_k4s9jn.png" />
+
+
+## Back to top button 
+This website has "Back to Top" button so an user can scroll back to top easily. This is written by Javascript code.
+<img src="https://res.cloudinary.com/machikolacey/image/upload/v1617162205/milestone4/back_cnzcc5.png" />
+
 
 # Future Improvements
 
