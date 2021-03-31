@@ -597,6 +597,17 @@ input[name='q']::placeholder {
     margin: 0 0 10px;
 }
 
+#toTop {
+    padding: 5px 3px;
+    background: #f26a8d ;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    right: 5px;
+    display: none;
+    cursor:pointer;
+}
+
 @media (min-width: 1040px) {
        .homepage-banner .pc{
         display:block;
