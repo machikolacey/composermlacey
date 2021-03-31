@@ -249,8 +249,11 @@ An admin can add advert with a page link through admin.
 An admin can add sample youtube link through admin, to display a video on 'Sample Videos' page, and also Home page.
 <img src="https://res.cloudinary.com/machikolacey/image/upload/v1617058063/milestone4/embed_k4s9jn.png" />
 
+# Future Improvements
 
-
+- I would like to add paging feature on sample videos page.
+- I would like to add E-ticket generation so when an user orders an event ticket, they can download the ticket immediately.
+- I would like to add more specs on Album model so admin can add more specs.
 
 # Technologies Used
 
