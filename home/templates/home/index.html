@@ -1,6 +1,5 @@
 {% extends "base.html" %}
 {% load static %}
-
 {% block page_header %}
     <div class="container header-container">
         <div class="row">
@@ -8,14 +7,11 @@
         </div>
     </div>
 {% endblock %}
-
-
-
 {% block content %}
 <div class="homepage-banner ">
     {% for advert in adverts %} 
         <div class="item">
-            <a href="{{ advert.link_url }}"><img src="{{ MEDIA_URL }}{{ advert.banner }}"           alt="{{ advert.title }}"  class="pc"    /></a>
+            <a href="{{ advert.link_url }}"><img src="{{ MEDIA_URL }}{{ advert.banner }}"  alt="{{ advert.title }}"  class="pc"    /></a>
             <a href="{{ advert.link_url }}"><img src="{{ MEDIA_URL }}{{ advert.banner_tablet_size }}"  alt="{{ advert.title }}"  class="tablet" /></a>
             <a href="{{ advert.link_url }}"><img src="{{ MEDIA_URL }}{{ advert.banner_mobile_size }}"  alt="{{ advert.title }}"  class="mobile" /></a>
         </div>
@@ -39,7 +35,6 @@
         </div>    
     </div>
 </div>
-
 <div class="container">
 <h2>MLK Shop</h2>
     <div class="product-list">
