@@ -42,6 +42,7 @@
 |Navbar dropdown was too narrow on tablet size | Added css to make sure the dropdown is 100%|
 |Event start date, time was not displayed | Added the code on the template with Jinja formatter|
 |The header was full width, rather than container width | added container under header tag|
+|Password reset was not sending an email | Fixed typo on the template|
 
 ## Issues mentioned by code reviews
 
